@@ -1,0 +1,5327 @@
+[
+  {
+    "filename": "A translational framework to DELIVER nanomedicines to the clinic.pdf",
+    "total_chars": 99137,
+    "sentence_structure": {
+      "mean_length": 43.77,
+      "median_length": 27.0,
+      "std_length": 76.67,
+      "cv": 1.752,
+      "min_length": 3,
+      "max_length": 687,
+      "burstiness": 0.273,
+      "pct_short_le10": 4.4,
+      "pct_medium_11_20": 22.3,
+      "pct_long_21_35": 47.6,
+      "pct_very_long_gt35": 25.7,
+      "n_sentences": 206
+    },
+    "paragraph_structure": {
+      "mean_sents_per_para": 17.33,
+      "std_sents_per_para": 11.52,
+      "cv_sents_per_para": 0.664,
+      "mean_words_per_para": 751.7,
+      "std_words_per_para": 166.6,
+      "max_consecutive_same_length": 1,
+      "para_length_distribution": {
+        "16": 2,
+        "14": 2,
+        "15": 1,
+        "33": 1,
+        "6": 1,
+        "37": 1,
+        "1": 1,
+        "4": 1,
+        "32": 1,
+        "20": 1
+      },
+      "n_paragraphs": 12
+    },
+    "vocabulary": {
+      "ttr": 0.211,
+      "mattr": 0.7199,
+      "lexical_density": 0.69,
+      "total_words": 8432,
+      "unique_words": 1779,
+      "ai_tier1_words_found": {
+        "landscape": 3,
+        "multifaceted": 1
+      },
+      "ai_tier2_words_found": {
+        "paradigm": 1,
+        "furthermore": 3,
+        "streamline": 3,
+        "comprehensive": 7,
+        "crucial": 1,
+        "robust": 4,
+        "key": 20,
+        "enhance": 1,
+        "valuable": 1
+      },
+      "ai_tier3_pubmed_found": {
+        "facilitated": 3,
+        "across": 23,
+        "comprehensive": 7,
+        "notably": 1,
+        "crucial": 1,
+        "within": 30
+      }
+    },
+    "transitions": {
+      "transition_frequency": 71.6,
+      "transitions_per_100_sentences": {
+        "contrast": 21.2,
+        "temporal": 7.7,
+        "exemplifying": 22.6,
+        "additive": 5.3,
+        "causal": 12.0,
+        "emphasis": 1.4,
+        "concessive": 1.4
+      },
+      "transition_distribution": {
+        "contrast": 44,
+        "temporal": 16,
+        "exemplifying": 47,
+        "additive": 11,
+        "causal": 25,
+        "emphasis": 3,
+        "concessive": 3
+      },
+      "top_sentence_starters": [
+        [
+          "the",
+          15
+        ],
+        [
+          "this",
+          12
+        ],
+        [
+          "in",
+          10
+        ],
+        [
+          "it",
+          8
+        ],
+        [
+          "a",
+          8
+        ],
+        [
+          "for",
+          8
+        ],
+        [
+          "thus",
+          7
+        ],
+        [
+          "however",
+          6
+        ],
+        [
+          "while",
+          5
+        ],
+        [
+          "investigators",
+          5
+        ],
+        [
+          "we",
+          4
+        ],
+        [
+          "to",
+          4
+        ],
+        [
+          "key",
+          3
+        ],
+        [
+          "furthermore",
+          3
+        ],
+        [
+          "define",
+          3
+        ],
+        [
+          "all",
+          3
+        ],
+        [
+          "ensure",
+          3
+        ],
+        [
+          "establish",
+          3
+        ],
+        [
+          "nanomedicines",
+          3
+        ],
+        [
+          "ultimately",
+          3
+        ],
+        [
+          "\u2022",
+          3
+        ],
+        [
+          "consideration",
+          2
+        ],
+        [
+          "understand",
+          2
+        ],
+        [
+          "given",
+          2
+        ],
+        [
+          "ideally",
+          2
+        ],
+        [
+          "rather",
+          2
+        ],
+        [
+          "fundamental",
+          2
+        ],
+        [
+          "nature",
+          1
+        ],
+        [
+          "yet",
+          1
+        ],
+        [
+          "critical",
+          1
+        ]
+      ],
+      "transition_examples": {
+        "contrast": [
+          "Yet\nfundamental barriers still exist that prevent or delay the clinical translation\nof nanomedicines",
+          "In recent years, there has been a sentiment that the nanomedicine field\nhas promised big but deliver",
+          "However, this\nviewpoint fails to see the complete picture and does not account for\nrecent success."
+        ],
+        "temporal": [
+          "Liposomal doxorubicin, Doxil,\nwas the first nanomedicine to overcome the translational hurdles and\nw",
+          "In light of the recent and extensive clinical\ntranslation of nanomedicines, we argue that we have en",
+          "Furthermore, when accounting for the evolution of clinically\nsuccessful nanomedicines, where each cl"
+        ],
+        "exemplifying": [
+          "Extensive clinical testing and\nvalidation of other nanomedicines followed, which has led to where\nwe",
+          "This framework complements existing guidelines for pharmaceutical (and nanomedicine) development (fo",
+          "We postulate that industry, clinicians, patients, regulatory authorities and governments are poised "
+        ],
+        "additive": [
+          "We postulate that industry, clinicians, patients, regulatory authorities and governments are poised ",
+          "Furthermore, when accounting for the evolution of clinically\nsuccessful nanomedicines, where each cl",
+          "A lack of rigorous characterization of surface functionalization and the spatial orientation of targ"
+        ],
+        "causal": [
+          "(FDA), International Organization for Standardization (ISO) guidelines), and thus, should not be rev",
+          "In many cases, a new nanomedicine has only one\nchance at clinical development; thus, choice of the i",
+          "Thus, investigators must rationally select the nanomaterials and fabrication steps based on a sound "
+        ],
+        "emphasis": [
+          "This is exemplified by\nAstraZeneca\u2019s AZD2811, an Aurora-B kinase inhibitor encapsulated\nwithin polym",
+          "Given the lack of suitable preclinical models that precisely\nsimulate human disease, multiple advanc",
+          "However,\nConsideration for mitigating risk\nClinical development\nIrrelevant indication\nor poor clinic"
+        ],
+        "concessive": [
+          "Despite this, the current literature largely overlooks the role of the\nbiomolecular corona in bio\u2013na",
+          "A prime example lies in the failure for\nOpaxio (paclitaxel/poly(l-glutamic acid) nanoconjugate) to o",
+          "Outlook and future directions\nThe future of nanomedicines is exponentially brighter despite the\nmany"
+        ]
+      }
+    },
+    "voice_and_person": {
+      "passive_voice_pct": 24.3,
+      "active_voice_pct": 75.7,
+      "first_person_we_pct": 6.9,
+      "first_person_i_pct": 3.0
+    },
+    "copula_patterns": {
+      "simple_copulas": 178,
+      "copula_substitutes": 0,
+      "substitute_ratio_pct": 0.0
+    },
+    "readability": {
+      "flesch_reading_ease": -22.8101878798046,
+      "flesch_kincaid_grade": 27.018002508508157,
+      "gunning_fog": 30.95733000995947,
+      "smog_index": 25.401485233737315,
+      "coleman_liau": 21.908936360586072,
+      "ari": 31.55347106958083
+    },
+    "punctuation": {
+      "em_dashes_per_1000_words": 0.11,
+      "en_dashes_per_1000_words": 2.77,
+      "semicolons_per_sentence": 0.168,
+      "colons_per_sentence": 0.089,
+      "commas_per_sentence": 2.69,
+      "em_dash_count": 1,
+      "en_dash_count": 25
+    },
+    "information_density": {
+      "mean_info_density": 0.033,
+      "std_info_density": 0.0175,
+      "cv_info_density": 0.53,
+      "min_info_density": 0.0113,
+      "max_info_density": 0.0758
+    },
+    "sentence_openings": {
+      "opening_pattern_counts": {
+        "other": 140,
+        "meta_discourse": 2,
+        "article_start": 24,
+        "transition_word": 9,
+        "dependent_clause_first": 8,
+        "demonstrative": 13,
+        "first_person": 4,
+        "expletive": 8
+      },
+      "opening_pattern_pct": {
+        "other": 67.3,
+        "meta_discourse": 1.0,
+        "article_start": 11.5,
+        "transition_word": 4.3,
+        "dependent_clause_first": 3.8,
+        "demonstrative": 6.2,
+        "first_person": 1.9,
+        "expletive": 3.8
+      }
+    }
+  },
+  {
+    "filename": "Harnessing extracellular vesicle heterogeneity for diagnostic and therapeutic applications.pdf",
+    "total_chars": 77438,
+    "sentence_structure": {
+      "mean_length": 23.06,
+      "median_length": 21.0,
+      "std_length": 11.3,
+      "cv": 0.49,
+      "min_length": 3,
+      "max_length": 77,
+      "burstiness": -0.342,
+      "pct_short_le10": 9.6,
+      "pct_medium_11_20": 37.4,
+      "pct_long_21_35": 40.0,
+      "pct_very_long_gt35": 13.0,
+      "n_sentences": 270
+    },
+    "paragraph_structure": {
+      "mean_sents_per_para": 34.62,
+      "std_sents_per_para": 11.49,
+      "cv_sents_per_para": 0.332,
+      "mean_words_per_para": 779.4,
+      "std_words_per_para": 262.3,
+      "max_consecutive_same_length": 1,
+      "para_length_distribution": {
+        "19": 1,
+        "46": 1,
+        "26": 1,
+        "37": 1,
+        "30": 1,
+        "52": 1,
+        "42": 1,
+        "25": 1
+      },
+      "n_paragraphs": 8
+    },
+    "vocabulary": {
+      "ttr": 0.2562,
+      "mattr": 0.745,
+      "lexical_density": 0.685,
+      "total_words": 5703,
+      "unique_words": 1461,
+      "ai_tier1_words_found": {
+        "intricacies": 1,
+        "leverage": 1,
+        "interplay": 2,
+        "pivotal": 1,
+        "landscape": 3,
+        "intricate": 1,
+        "cornerstone": 7
+      },
+      "ai_tier2_words_found": {
+        "furthermore": 2,
+        "revolutionize": 1,
+        "innovative": 1,
+        "crucial": 2,
+        "robust": 1,
+        "key": 9,
+        "enhance": 1,
+        "highlight": 1
+      },
+      "ai_tier3_pubmed_found": {
+        "across": 23,
+        "crucial": 2,
+        "primarily": 1,
+        "within": 9,
+        "demonstrated": 3,
+        "insights": 2,
+        "underscores": 1
+      }
+    },
+    "transitions": {
+      "transition_frequency": 62.8,
+      "transitions_per_100_sentences": {
+        "additive": 7.2,
+        "contrast": 28.9,
+        "causal": 4.0,
+        "exemplifying": 13.4,
+        "emphasis": 1.1,
+        "concessive": 2.5,
+        "temporal": 5.8
+      },
+      "transition_distribution": {
+        "additive": 20,
+        "contrast": 80,
+        "causal": 11,
+        "exemplifying": 37,
+        "emphasis": 3,
+        "concessive": 7,
+        "temporal": 16
+      },
+      "top_sentence_starters": [
+        [
+          "the",
+          22
+        ],
+        [
+          "for",
+          12
+        ],
+        [
+          "as",
+          11
+        ],
+        [
+          "\u2022",
+          10
+        ],
+        [
+          "whereas",
+          9
+        ],
+        [
+          "in",
+          9
+        ],
+        [
+          "however",
+          9
+        ],
+        [
+          "this",
+          8
+        ],
+        [
+          "we",
+          7
+        ],
+        [
+          "a",
+          7
+        ],
+        [
+          "these",
+          5
+        ],
+        [
+          "ev",
+          4
+        ],
+        [
+          "many",
+          4
+        ],
+        [
+          "finally",
+          4
+        ],
+        [
+          "other",
+          4
+        ],
+        [
+          "evs",
+          3
+        ],
+        [
+          "some",
+          3
+        ],
+        [
+          "despite",
+          3
+        ],
+        [
+          "to",
+          3
+        ],
+        [
+          "cornerstone",
+          3
+        ],
+        [
+          "challenge",
+          3
+        ],
+        [
+          "with",
+          3
+        ],
+        [
+          "anvs",
+          3
+        ],
+        [
+          "although",
+          2
+        ],
+        [
+          "here",
+          2
+        ],
+        [
+          "they",
+          2
+        ],
+        [
+          "even",
+          2
+        ],
+        [
+          "considering",
+          2
+        ],
+        [
+          "1b,c).",
+          2
+        ],
+        [
+          "similarly",
+          2
+        ]
+      ],
+      "transition_examples": {
+        "additive": [
+          "Although this\nheterogeneity provides high diagnostic value for liquid biopsy and\nconfers many exploi",
+          "They are also malleable and suitable for genetic manipulation or exogenous loading,\npiggybacking on ",
+          "Indeed, some functional aspects of EVs are known to vary with\nsize, including cell uptake33 (which i"
+        ],
+        "contrast": [
+          "Although this\nheterogeneity provides high diagnostic value for liquid biopsy and\nconfers many exploi",
+          "Although this\nheterogeneity provides high diagnostic value for liquid biopsy and\nconfers many exploi",
+          "Others appear to have organotropic character to target specific cells within distant tissues (althou"
+        ],
+        "causal": [
+          "Although this\nheterogeneity provides high diagnostic value for liquid biopsy and\nconfers many exploi",
+          "A\nrecent study has suggested that under a limiting surface-to-volume\nratio (that is, a diameter of <",
+          "In general, studies for understanding the influence of size within\nsmall EVs (for example, <200\u2009nm) "
+        ],
+        "exemplifying": [
+          "Some are reported to cross endothelial barriers, including\nthe blood\u2013brain barrier (BBB)20\u201322, altho",
+          "Indeed, some functional aspects of EVs are known to vary with\nsize, including cell uptake33 (which i",
+          "In general, studies for understanding the influence of size within\nsmall EVs (for example, <200\u2009nm) "
+        ],
+        "emphasis": [
+          "Indeed, some functional aspects of EVs are known to vary with\nsize, including cell uptake33 (which i",
+          "With the advent of\nnewer technology, proteoliposomes may also offer an option for synthetic comparis",
+          "Solving the complex puzzle of\nEV dosing\u2014whether by particle count, protein amount, specific\nmolecule"
+        ],
+        "concessive": [
+          "Despite this potential, approaches to effectively use EVs for clinical\ntherapeutics have not yet mat",
+          "As EVs produced even from a\nsingle cell have compositional heterogeneity, functional subpopulations ",
+          "The efficiency of drug encapsulation\nacross EVs, with respect to size or the density of a desired su"
+        ],
+        "temporal": [
+          "Next, we review existing technologies, including their\nadvantages and disadvantages, that are capabl",
+          "Finally, we outline three\ncornerstones by which to address the EV heterogeneity barrier: (1)\nthe nee",
+          "We recently reported the identification of\ndistinct molecularly defined EV subpopulations from the v"
+        ]
+      }
+    },
+    "voice_and_person": {
+      "passive_voice_pct": 12.4,
+      "active_voice_pct": 87.6,
+      "first_person_we_pct": 6.9,
+      "first_person_i_pct": 0.0
+    },
+    "copula_patterns": {
+      "simple_copulas": 168,
+      "copula_substitutes": 1,
+      "substitute_ratio_pct": 0.59
+    },
+    "readability": {
+      "flesch_reading_ease": 12.164356678294524,
+      "flesch_kincaid_grade": 17.149570278297293,
+      "gunning_fog": 20.537459810452436,
+      "smog_index": 17.863305854877726,
+      "coleman_liau": 17.966940550990817,
+      "ari": 19.05660210592378
+    },
+    "punctuation": {
+      "em_dashes_per_1000_words": 1.76,
+      "en_dashes_per_1000_words": 3.37,
+      "semicolons_per_sentence": 0.029,
+      "colons_per_sentence": 0.062,
+      "commas_per_sentence": 1.49,
+      "em_dash_count": 11,
+      "en_dash_count": 21
+    },
+    "information_density": {
+      "mean_info_density": 0.0673,
+      "std_info_density": 0.0275,
+      "cv_info_density": 0.409,
+      "min_info_density": 0.0312,
+      "max_info_density": 0.1124
+    },
+    "sentence_openings": {
+      "opening_pattern_counts": {
+        "other": 176,
+        "dependent_clause_first": 26,
+        "meta_discourse": 6,
+        "first_person": 8,
+        "demonstrative": 14,
+        "article_start": 29,
+        "transition_word": 14,
+        "expletive": 4
+      },
+      "opening_pattern_pct": {
+        "other": 63.5,
+        "dependent_clause_first": 9.4,
+        "meta_discourse": 2.2,
+        "first_person": 2.9,
+        "demonstrative": 5.1,
+        "article_start": 10.5,
+        "transition_word": 5.1,
+        "expletive": 1.4
+      }
+    }
+  },
+  {
+    "filename": "Designing nanotheranostics with machine learning.pdf",
+    "total_chars": 86999,
+    "sentence_structure": {
+      "mean_length": 28.62,
+      "median_length": 26,
+      "std_length": 23.32,
+      "cv": 0.815,
+      "min_length": 3,
+      "max_length": 254,
+      "burstiness": -0.102,
+      "pct_short_le10": 14.4,
+      "pct_medium_11_20": 17.5,
+      "pct_long_21_35": 43.7,
+      "pct_very_long_gt35": 24.3,
+      "n_sentences": 263
+    },
+    "paragraph_structure": {
+      "mean_sents_per_para": 27.8,
+      "std_sents_per_para": 8.55,
+      "cv_sents_per_para": 0.307,
+      "mean_words_per_para": 754.2,
+      "std_words_per_para": 203.5,
+      "max_consecutive_same_length": 1,
+      "para_length_distribution": {
+        "41": 2,
+        "21": 1,
+        "27": 1,
+        "23": 1,
+        "24": 1,
+        "22": 1,
+        "35": 1,
+        "28": 1,
+        "16": 1
+      },
+      "n_paragraphs": 10
+    },
+    "vocabulary": {
+      "ttr": 0.2539,
+      "mattr": 0.7241,
+      "lexical_density": 0.7,
+      "total_words": 6696,
+      "unique_words": 1700,
+      "ai_tier1_words_found": {
+        "harness": 1,
+        "leverage": 1,
+        "intricate": 1
+      },
+      "ai_tier2_words_found": {
+        "paradigm": 2,
+        "furthermore": 2,
+        "comprehensive": 2,
+        "moreover": 9,
+        "crucial": 3,
+        "robust": 2,
+        "key": 9,
+        "enhance": 2,
+        "meticulously": 1,
+        "valuable": 2
+      },
+      "ai_tier3_pubmed_found": {
+        "facilitated": 2,
+        "across": 4,
+        "comprehensive": 2,
+        "crucial": 3,
+        "particularly": 3,
+        "primarily": 2,
+        "within": 3,
+        "insights": 3
+      }
+    },
+    "transitions": {
+      "transition_frequency": 65.1,
+      "transitions_per_100_sentences": {
+        "contrast": 16.2,
+        "exemplifying": 21.6,
+        "causal": 5.8,
+        "temporal": 6.1,
+        "additive": 10.4,
+        "concessive": 1.4,
+        "emphasis": 3.6
+      },
+      "transition_distribution": {
+        "contrast": 45,
+        "exemplifying": 60,
+        "causal": 16,
+        "temporal": 17,
+        "additive": 29,
+        "concessive": 4,
+        "emphasis": 10
+      },
+      "top_sentence_starters": [
+        [
+          "the",
+          19
+        ],
+        [
+          "for",
+          15
+        ],
+        [
+          "by",
+          14
+        ],
+        [
+          "in",
+          13
+        ],
+        [
+          "26",
+          10
+        ],
+        [
+          "moreover",
+          9
+        ],
+        [
+          "this",
+          7
+        ],
+        [
+          "ml",
+          7
+        ],
+        [
+          "to",
+          7
+        ],
+        [
+          "these",
+          6
+        ],
+        [
+          "although",
+          5
+        ],
+        [
+          "however",
+          5
+        ],
+        [
+          "as",
+          4
+        ],
+        [
+          "panels",
+          4
+        ],
+        [
+          "despite",
+          3
+        ],
+        [
+          "similarly",
+          3
+        ],
+        [
+          "a",
+          3
+        ],
+        [
+          "144",
+          3
+        ],
+        [
+          "nano-mediated",
+          3
+        ],
+        [
+          "2",
+          3
+        ],
+        [
+          "data",
+          3
+        ],
+        [
+          "more",
+          2
+        ],
+        [
+          "evs",
+          2
+        ],
+        [
+          "12",
+          2
+        ],
+        [
+          "143",
+          2
+        ],
+        [
+          "93",
+          2
+        ],
+        [
+          "current",
+          2
+        ],
+        [
+          "given",
+          2
+        ],
+        [
+          "several",
+          2
+        ],
+        [
+          "nano\u2013cell",
+          2
+        ]
+      ],
+      "transition_examples": {
+        "contrast": [
+          "Although many important technological successes have\nbeen achieved in this field, widespread adoptio",
+          "Although many important technological successes have\nbeen achieved in this field, widespread adoptio",
+          "The increasing interest in incorporating nanotechnology into traditional diagnoses and therapies can"
+        ],
+        "exemplifying": [
+          "Although many important technological successes have\nbeen achieved in this field, widespread adoptio",
+          "For example, gold\nnanoparticles (AuNPs)3, polymeric micelles4 and lipid nanoparticles\n(LNPs)5, have ",
+          "For example, gold\nnanoparticles (AuNPs)3, polymeric micelles4 and lipid nanoparticles\n(LNPs)5, have "
+        ],
+        "causal": [
+          "As a\nkey branch of artificial intelligence, machine learning (ML) provides a set\nof tools capable of",
+          "For inorganic nanoparticles, absorption\nspectra serve as a valuable tool for understanding the synth",
+          "Since the discovery of AAV in 1965, the AAV capsids, particularly AAV2 capsids, have proven to be a "
+        ],
+        "temporal": [
+          "This\nML-aided nanotheranostics, and discusses the opportunities in developing\nnext-generation nanoth",
+          "Initially, AuNP seeds with the size of\n2\u2009nm were manually created using HAuCl4, hexadecyltrimethylam",
+          "For the synthesis of Au nanorods\nwith Au seeds, HAuCl4, CTAB, ascorbic acid and AgNO3 as reactants,\n"
+        ],
+        "additive": [
+          "In addition to NNs, other frequently used ML models\ninclude random forest (RF) classification that c",
+          "Within this workflow,\nML has also been successful at more difficult tasks such as predicting\nnanothe",
+          "Similarly, an NN model successfully predicted\nthe size of silver nanoparticles (AgNPs) using inputs "
+        ],
+        "concessive": [
+          "Despite these early successes, there remain substantial challenges in the adoption of ML: to\nsome ex",
+          "Notwithstanding\nthe great progress, large-scale application of nanopore sequencing\nis hindered by ce",
+          "Despite their widespread use in the fight against COVID-19, mRNA\nvaccines still have notable drawbac"
+        ],
+        "emphasis": [
+          "More importantly, polymer surface activity was found\n\u2022 Logistic regression\n\u2022 Decision trees\n\u2022 Easy t",
+          "Since the discovery of AAV in 1965, the AAV capsids, particularly AAV2 capsids, have proven to be a ",
+          "Similarly, recent significant improvement in computing power\nand big data have greatly facilitated t"
+        ]
+      }
+    },
+    "voice_and_person": {
+      "passive_voice_pct": 19.9,
+      "active_voice_pct": 80.1,
+      "first_person_we_pct": 0.7,
+      "first_person_i_pct": 0.0
+    },
+    "copula_patterns": {
+      "simple_copulas": 165,
+      "copula_substitutes": 0,
+      "substitute_ratio_pct": 0.0
+    },
+    "readability": {
+      "flesch_reading_ease": 1.9831210334563991,
+      "flesch_kincaid_grade": 19.761900919510833,
+      "gunning_fog": 24.257578032486975,
+      "smog_index": 20.512306447225477,
+      "coleman_liau": 19.77622040925505,
+      "ari": 22.798559947505645
+    },
+    "punctuation": {
+      "em_dashes_per_1000_words": 0.0,
+      "en_dashes_per_1000_words": 6.76,
+      "semicolons_per_sentence": 0.166,
+      "colons_per_sentence": 0.044,
+      "commas_per_sentence": 2.73,
+      "em_dash_count": 0,
+      "en_dash_count": 51
+    },
+    "information_density": {
+      "mean_info_density": 0.0853,
+      "std_info_density": 0.0189,
+      "cv_info_density": 0.221,
+      "min_info_density": 0.0665,
+      "max_info_density": 0.113
+    },
+    "sentence_openings": {
+      "opening_pattern_counts": {
+        "other": 202,
+        "dependent_clause_first": 17,
+        "demonstrative": 13,
+        "article_start": 23,
+        "transition_word": 21,
+        "meta_discourse": 1,
+        "expletive": 1
+      },
+      "opening_pattern_pct": {
+        "other": 72.7,
+        "dependent_clause_first": 6.1,
+        "demonstrative": 4.7,
+        "article_start": 8.3,
+        "transition_word": 7.6,
+        "meta_discourse": 0.4,
+        "expletive": 0.4
+      }
+    }
+  },
+  {
+    "filename": "Chemistry, manufacturing and controls strategies for using novel excipients in lipid nanoparticles.pdf",
+    "total_chars": 91464,
+    "sentence_structure": {
+      "mean_length": 27.44,
+      "median_length": 25,
+      "std_length": 20.18,
+      "cv": 0.735,
+      "min_length": 3,
+      "max_length": 240,
+      "burstiness": -0.153,
+      "pct_short_le10": 4.5,
+      "pct_medium_11_20": 26.6,
+      "pct_long_21_35": 54.6,
+      "pct_very_long_gt35": 14.3,
+      "n_sentences": 335
+    },
+    "paragraph_structure": {
+      "mean_sents_per_para": 31.09,
+      "std_sents_per_para": 9.81,
+      "cv_sents_per_para": 0.316,
+      "mean_words_per_para": 836.5,
+      "std_words_per_para": 222.7,
+      "max_consecutive_same_length": 2,
+      "para_length_distribution": {
+        "38": 2,
+        "22": 2,
+        "24": 1,
+        "21": 1,
+        "46": 1,
+        "19": 1,
+        "42": 1,
+        "31": 1,
+        "39": 1
+      },
+      "n_paragraphs": 11
+    },
+    "vocabulary": {
+      "ttr": 0.1827,
+      "mattr": 0.6905,
+      "lexical_density": 0.65,
+      "total_words": 8705,
+      "unique_words": 1590,
+      "ai_tier1_words_found": {},
+      "ai_tier2_words_found": {
+        "furthermore": 2,
+        "streamline": 2,
+        "additionally": 1,
+        "comprehensive": 1,
+        "enhance": 1,
+        "highlight": 3
+      },
+      "ai_tier3_pubmed_found": {
+        "additionally": 1,
+        "across": 3,
+        "comprehensive": 1,
+        "within": 3,
+        "demonstrated": 3,
+        "insights": 1
+      }
+    },
+    "transitions": {
+      "transition_frequency": 50.6,
+      "transitions_per_100_sentences": {
+        "contrast": 16.4,
+        "additive": 9.1,
+        "causal": 7.6,
+        "concessive": 2.3,
+        "exemplifying": 11.1,
+        "temporal": 2.9,
+        "emphasis": 1.2
+      },
+      "transition_distribution": {
+        "contrast": 56,
+        "additive": 31,
+        "causal": 26,
+        "concessive": 8,
+        "exemplifying": 38,
+        "temporal": 10,
+        "emphasis": 4
+      },
+      "top_sentence_starters": [
+        [
+          "the",
+          34
+        ],
+        [
+          "in",
+          31
+        ],
+        [
+          "for",
+          15
+        ],
+        [
+          "we",
+          14
+        ],
+        [
+          "if",
+          12
+        ],
+        [
+          "this",
+          8
+        ],
+        [
+          "these",
+          8
+        ],
+        [
+          "lipid",
+          7
+        ],
+        [
+          "however",
+          7
+        ],
+        [
+          "consequently",
+          6
+        ],
+        [
+          "as",
+          5
+        ],
+        [
+          "cholesterol",
+          5
+        ],
+        [
+          "each",
+          5
+        ],
+        [
+          "despite",
+          4
+        ],
+        [
+          "it",
+          4
+        ],
+        [
+          "by",
+          4
+        ],
+        [
+          "a",
+          4
+        ],
+        [
+          "owing",
+          4
+        ],
+        [
+          "at",
+          4
+        ],
+        [
+          "given",
+          4
+        ],
+        [
+          "whereas",
+          3
+        ],
+        [
+          "data",
+          3
+        ],
+        [
+          "material",
+          3
+        ],
+        [
+          "such",
+          3
+        ],
+        [
+          "specifically",
+          3
+        ],
+        [
+          "although",
+          2
+        ],
+        [
+          "lnps",
+          2
+        ],
+        [
+          "onpattro",
+          2
+        ],
+        [
+          "on",
+          2
+        ],
+        [
+          "beyond",
+          2
+        ]
+      ],
+      "transition_examples": {
+        "contrast": [
+          "nature nanotechnology\nChemistry, manufacturing and controls\nstrategies for using novel excipients in",
+          "Although these regulatory requirements may help to ensure\npatient safety they also create economic a",
+          "Although these regulatory requirements may help to ensure\npatient safety they also create economic a"
+        ],
+        "additive": [
+          "Although these regulatory requirements may help to ensure\npatient safety they also create economic a",
+          "In the context of vaccine applications, the LNP\ncan also act as an adjuvant to stimulate an innate i",
+          "Whereas the focus of the\npaper is novel lipids, non-novel lipids are also discussed in the context\no"
+        ],
+        "causal": [
+          "Although these regulatory requirements may help to ensure\npatient safety they also create economic a",
+          "Consequently,\nthere are limited compendial, regulatory and literature guidance documents that pertai",
+          "Consequently, these lipids were redesignated as excipients for the EMA, in\nalignment with other LNPs"
+        ],
+        "concessive": [
+          "Despite the\nunique structural and functional role of lipid excipients in LNPs, there is\nlimited spec",
+          "The scope of this Perspective encompasses all novel lipid\nexcipients used in LNPs, regardless of the",
+          "Despite this similarity, the US FDA accepted different classifications of the lipids."
+        ],
+        "exemplifying": [
+          "The\ncomposition, structure, dosing regimen and route of administration\nof the LNP can be used to mod",
+          "The concepts outlined\nhere also apply to other forms of lipid-based delivery systems, including lipo",
+          "Material classifications can profoundly impact development,\nincluding non-clinical data collection, "
+        ],
+        "temporal": [
+          "However, the COVID-19 vaccines were initially\ngranted emergency-use authorization before subsequent ",
+          "By contrast, DSPC\nhad not been used previously in an approved product via the IM route\nof administra",
+          "Storage and administration of\nthe LNPs then occurs at a neutral pH to eliminate surface charge\neffec"
+        ],
+        "emphasis": [
+          "As lipophilic xenobiotic molecules that could be slowly cleared\nafter administration, the bioaccumul",
+          "Material attribute\nPreferred test methods\nAppearance (form, colour and clarity)\nVisual description\nC",
+          "Importantly, the researchers found that protein translation of these RNA\u2013\nlipid adducts is highly co"
+        ]
+      }
+    },
+    "voice_and_person": {
+      "passive_voice_pct": 23.5,
+      "active_voice_pct": 76.5,
+      "first_person_we_pct": 11.8,
+      "first_person_i_pct": 0.0
+    },
+    "copula_patterns": {
+      "simple_copulas": 241,
+      "copula_substitutes": 1,
+      "substitute_ratio_pct": 0.41
+    },
+    "readability": {
+      "flesch_reading_ease": 12.665759468968048,
+      "flesch_kincaid_grade": 17.822457411252234,
+      "gunning_fog": 21.576773464543358,
+      "smog_index": 18.70315381980785,
+      "coleman_liau": 17.151576429658622,
+      "ari": 19.848056004927265
+    },
+    "punctuation": {
+      "em_dashes_per_1000_words": 0.76,
+      "en_dashes_per_1000_words": 2.5,
+      "semicolons_per_sentence": 0.097,
+      "colons_per_sentence": 0.047,
+      "commas_per_sentence": 1.77,
+      "em_dash_count": 7,
+      "en_dash_count": 23
+    },
+    "information_density": {
+      "mean_info_density": 0.0728,
+      "std_info_density": 0.0423,
+      "cv_info_density": 0.581,
+      "min_info_density": 0.0178,
+      "max_info_density": 0.1825
+    },
+    "sentence_openings": {
+      "opening_pattern_counts": {
+        "other": 216,
+        "dependent_clause_first": 29,
+        "meta_discourse": 6,
+        "article_start": 39,
+        "first_person": 15,
+        "transition_word": 12,
+        "demonstrative": 20,
+        "expletive": 5
+      },
+      "opening_pattern_pct": {
+        "other": 63.2,
+        "dependent_clause_first": 8.5,
+        "meta_discourse": 1.8,
+        "article_start": 11.4,
+        "first_person": 4.4,
+        "transition_word": 3.5,
+        "demonstrative": 5.8,
+        "expletive": 1.5
+      }
+    }
+  },
+  {
+    "filename": "Sensitive photoresists for high-speed two-photon lithography.pdf",
+    "total_chars": 10256,
+    "sentence_structure": {
+      "mean_length": 22.4,
+      "median_length": 23,
+      "std_length": 9.41,
+      "cv": 0.42,
+      "min_length": 5,
+      "max_length": 44,
+      "burstiness": -0.409,
+      "pct_short_le10": 14.3,
+      "pct_medium_11_20": 28.6,
+      "pct_long_21_35": 42.9,
+      "pct_very_long_gt35": 14.3,
+      "n_sentences": 35
+    },
+    "paragraph_structure": {
+      "mean_sents_per_para": 40,
+      "std_sents_per_para": 0,
+      "cv_sents_per_para": 0,
+      "mean_words_per_para": 792,
+      "std_words_per_para": 0,
+      "max_consecutive_same_length": 1,
+      "para_length_distribution": {
+        "40": 1
+      },
+      "n_paragraphs": 1
+    },
+    "vocabulary": {
+      "ttr": 0.4726,
+      "mattr": 0.72,
+      "lexical_density": 0.676,
+      "total_words": 694,
+      "unique_words": 328,
+      "ai_tier1_words_found": {},
+      "ai_tier2_words_found": {
+        "moreover": 1,
+        "additionally": 1
+      },
+      "ai_tier3_pubmed_found": {
+        "additionally": 1
+      }
+    },
+    "transitions": {
+      "transition_frequency": 40.0,
+      "transitions_per_100_sentences": {
+        "contrast": 17.5,
+        "temporal": 10.0,
+        "causal": 2.5,
+        "additive": 5.0,
+        "exemplifying": 2.5,
+        "emphasis": 2.5
+      },
+      "transition_distribution": {
+        "contrast": 7,
+        "temporal": 4,
+        "causal": 1,
+        "additive": 2,
+        "exemplifying": 1,
+        "emphasis": 1
+      },
+      "top_sentence_starters": [
+        [
+          "1a",
+          3
+        ],
+        [
+          "to",
+          3
+        ],
+        [
+          "the",
+          3
+        ],
+        [
+          "in",
+          2
+        ],
+        [
+          "research",
+          1
+        ],
+        [
+          "a",
+          1
+        ],
+        [
+          "two-photon",
+          1
+        ],
+        [
+          "however",
+          1
+        ],
+        [
+          "one",
+          1
+        ],
+        [
+          "unlike",
+          1
+        ],
+        [
+          "owing",
+          1
+        ],
+        [
+          "computational",
+          1
+        ],
+        [
+          "disruption",
+          1
+        ],
+        [
+          "these",
+          1
+        ],
+        [
+          "we",
+          1
+        ],
+        [
+          "1b)",
+          1
+        ],
+        [
+          "moreover",
+          1
+        ],
+        [
+          "1c)",
+          1
+        ],
+        [
+          "finally",
+          1
+        ],
+        [
+          "1d).",
+          1
+        ],
+        [
+          "future",
+          1
+        ],
+        [
+          "diverse",
+          1
+        ],
+        [
+          "besides",
+          1
+        ],
+        [
+          "nevertheless",
+          1
+        ],
+        [
+          "further",
+          1
+        ],
+        [
+          "additionally",
+          1
+        ],
+        [
+          "tianqi",
+          1
+        ],
+        [
+          "this",
+          1
+        ],
+        [
+          "ultrahigh-printing-speed",
+          1
+        ],
+        [
+          "nat.",
+          1
+        ]
+      ],
+      "transition_examples": {
+        "contrast": [
+          "Research briefing\nTwo-photon lithography has\nadvantages for precise additive\nmanufacturing at the na",
+          "However, the typical linear printing speeds,\non the order of micrometres to millimetres per second, ",
+          "To make TPL a\nviable technology for mass production,\nthe printing speed needs to be increased\nby ord"
+        ],
+        "temporal": [
+          "A sensitive\nphotoresist based on zirconium\noxide hybrid nanoparticles is\nshown to increase the linea",
+          "However, the typical linear printing speeds,\non the order of micrometres to millimetres per second, ",
+          "We subsequently built a TPL system with a\n780-nm light source and a polygonal laser\nscanner, with wh"
+        ],
+        "causal": [
+          "Owing to this\nneutrality, the ZrO2 hybrid nanoparticles are\nhighly soluble in organic solvents, achi"
+        ],
+        "additive": [
+          "Moreover, our\nphotoresist enables good printing accuracy:\nwe obtained a linewidth of 38\u2009nm on a TPL\n",
+          "Additionally, advanced\nTPL machines with massively parallel\nbeams4 might enable higher fabrication\nt"
+        ],
+        "exemplifying": [
+          "Besides TPL, the ZrO2\u2013BTMST photoresist could be applied to other lithography fields, such as deep u"
+        ],
+        "emphasis": [
+          "Nevertheless, a limitation of the ZrO2\u2013BT-\nMST photoresist is the thin-film thickness,\nwith cracks o"
+        ]
+      }
+    },
+    "voice_and_person": {
+      "passive_voice_pct": 7.5,
+      "active_voice_pct": 92.5,
+      "first_person_we_pct": 17.5,
+      "first_person_i_pct": 0.0
+    },
+    "copula_patterns": {
+      "simple_copulas": 20,
+      "copula_substitutes": 0,
+      "substitute_ratio_pct": 0.0
+    },
+    "readability": {
+      "flesch_reading_ease": 27.20768217584674,
+      "flesch_kincaid_grade": 14.768672596647281,
+      "gunning_fog": 18.262059527882315,
+      "smog_index": 16.310974933284594,
+      "coleman_liau": 17.06303797468355,
+      "ari": 18.064690827190823
+    },
+    "punctuation": {
+      "em_dashes_per_1000_words": 1.26,
+      "en_dashes_per_1000_words": 10.1,
+      "semicolons_per_sentence": 0.05,
+      "colons_per_sentence": 0.075,
+      "commas_per_sentence": 1.07,
+      "em_dash_count": 1,
+      "en_dash_count": 8
+    },
+    "information_density": {
+      "mean_info_density": 0.0707,
+      "std_info_density": 0,
+      "cv_info_density": 0,
+      "min_info_density": 0.0707,
+      "max_info_density": 0.0707
+    },
+    "sentence_openings": {
+      "opening_pattern_counts": {
+        "other": 28,
+        "article_start": 4,
+        "transition_word": 4,
+        "meta_discourse": 1,
+        "demonstrative": 2,
+        "first_person": 1
+      },
+      "opening_pattern_pct": {
+        "other": 70.0,
+        "article_start": 10.0,
+        "transition_word": 10.0,
+        "meta_discourse": 2.5,
+        "demonstrative": 5.0,
+        "first_person": 2.5
+      }
+    }
+  },
+  {
+    "filename": "A tunable two-dimensional crossbar array comprising 16 quantum dots.pdf",
+    "total_chars": 8638,
+    "sentence_structure": {
+      "mean_length": 23.92,
+      "median_length": 24.0,
+      "std_length": 10.05,
+      "cv": 0.42,
+      "min_length": 8,
+      "max_length": 42,
+      "burstiness": -0.408,
+      "pct_short_le10": 11.5,
+      "pct_medium_11_20": 26.9,
+      "pct_long_21_35": 42.3,
+      "pct_very_long_gt35": 19.2,
+      "n_sentences": 26
+    },
+    "paragraph_structure": {
+      "mean_sents_per_para": 29,
+      "std_sents_per_para": 0,
+      "cv_sents_per_para": 0,
+      "mean_words_per_para": 626,
+      "std_words_per_para": 0,
+      "max_consecutive_same_length": 1,
+      "para_length_distribution": {
+        "29": 1
+      },
+      "n_paragraphs": 1
+    },
+    "vocabulary": {
+      "ttr": 0.5053,
+      "mattr": 0.7137,
+      "lexical_density": 0.663,
+      "total_words": 564,
+      "unique_words": 285,
+      "ai_tier1_words_found": {},
+      "ai_tier2_words_found": {
+        "furthermore": 1
+      },
+      "ai_tier3_pubmed_found": {
+        "primarily": 1
+      }
+    },
+    "transitions": {
+      "transition_frequency": 48.3,
+      "transitions_per_100_sentences": {
+        "contrast": 27.6,
+        "exemplifying": 3.4,
+        "causal": 10.3,
+        "temporal": 3.4,
+        "additive": 3.4
+      },
+      "transition_distribution": {
+        "contrast": 8,
+        "exemplifying": 1,
+        "causal": 3,
+        "temporal": 1,
+        "additive": 1
+      },
+      "top_sentence_starters": [
+        [
+          "in",
+          3
+        ],
+        [
+          "we",
+          3
+        ],
+        [
+          "although",
+          2
+        ],
+        [
+          "research",
+          1
+        ],
+        [
+          "the",
+          1
+        ],
+        [
+          "building",
+          1
+        ],
+        [
+          "leading",
+          1
+        ],
+        [
+          "semiconductor",
+          1
+        ],
+        [
+          "but",
+          1
+        ],
+        [
+          "hence",
+          1
+        ],
+        [
+          "1a).",
+          1
+        ],
+        [
+          "1b).",
+          1
+        ],
+        [
+          "owing",
+          1
+        ],
+        [
+          "our",
+          1
+        ],
+        [
+          "these",
+          1
+        ],
+        [
+          "future",
+          1
+        ],
+        [
+          "therefore",
+          1
+        ],
+        [
+          "furthermore",
+          1
+        ],
+        [
+          "francesco",
+          1
+        ],
+        [
+          "this",
+          1
+        ],
+        [
+          "shared",
+          1
+        ],
+        [
+          "s41565-023-01491-3",
+          1
+        ],
+        [
+          "publisher\u2019s",
+          1
+        ],
+        [
+          "published",
+          1
+        ]
+      ],
+      "transition_examples": {
+        "contrast": [
+          "Although classical\nsemiconductor technology has advanced\nto control billions of transistors using on",
+          "Although classical\nsemiconductor technology has advanced\nto control billions of transistors using on",
+          "Although classical\nsemiconductor technology has advanced\nto control billions of transistors using on"
+        ],
+        "exemplifying": [
+          "Leading solid-state\nquantum computing platforms, such as\nthose based on superconducting and semicond"
+        ],
+        "causal": [
+          "Hence, so far, experimental work has\nfocused primarily on small and linear arrays,\nand it is an open",
+          "Owing to the uniformity of our material\nsystem \u2014 a planar germanium quantum\nwell in a silicon\u2013german",
+          "Therefore, future research should focus on the\nimplementation of high-fidelity quantum\ngates in such"
+        ],
+        "temporal": [
+          "We used charge-sensing methods and statistical tools to identify each\nquantum dot from complex charg"
+        ],
+        "additive": [
+          "Furthermore, as manual\ntuning operations become a bottleneck, it\nmight be necessary to adopt autonom"
+        ]
+      }
+    },
+    "voice_and_person": {
+      "passive_voice_pct": 10.3,
+      "active_voice_pct": 89.7,
+      "first_person_we_pct": 27.6,
+      "first_person_i_pct": 0.0
+    },
+    "copula_patterns": {
+      "simple_copulas": 17,
+      "copula_substitutes": 0,
+      "substitute_ratio_pct": 0.0
+    },
+    "readability": {
+      "flesch_reading_ease": 22.709863523573233,
+      "flesch_kincaid_grade": 16.015806451612907,
+      "gunning_fog": 18.50620347394541,
+      "smog_index": 16.385398648044777,
+      "coleman_liau": 16.40225806451613,
+      "ari": 18.143636028508233
+    },
+    "punctuation": {
+      "em_dashes_per_1000_words": 7.99,
+      "en_dashes_per_1000_words": 1.6,
+      "semicolons_per_sentence": 0.0,
+      "colons_per_sentence": 0.069,
+      "commas_per_sentence": 0.9,
+      "em_dash_count": 5,
+      "en_dash_count": 1
+    },
+    "information_density": {
+      "mean_info_density": 0.0192,
+      "std_info_density": 0,
+      "cv_info_density": 0,
+      "min_info_density": 0.0192,
+      "max_info_density": 0.0192
+    },
+    "sentence_openings": {
+      "opening_pattern_counts": {
+        "other": 17,
+        "article_start": 1,
+        "dependent_clause_first": 2,
+        "meta_discourse": 1,
+        "first_person": 4,
+        "transition_word": 2,
+        "demonstrative": 2
+      },
+      "opening_pattern_pct": {
+        "other": 58.6,
+        "article_start": 3.4,
+        "dependent_clause_first": 6.9,
+        "meta_discourse": 3.4,
+        "first_person": 13.8,
+        "transition_word": 6.9,
+        "demonstrative": 6.9
+      }
+    }
+  },
+  {
+    "filename": "Breaking the bottleneck of synthetic cells.pdf",
+    "total_chars": 9932,
+    "sentence_structure": {
+      "mean_length": 20.49,
+      "median_length": 21,
+      "std_length": 10.74,
+      "cv": 0.524,
+      "min_length": 4,
+      "max_length": 55,
+      "burstiness": -0.312,
+      "pct_short_le10": 23.1,
+      "pct_medium_11_20": 23.1,
+      "pct_long_21_35": 48.7,
+      "pct_very_long_gt35": 5.1,
+      "n_sentences": 39
+    },
+    "paragraph_structure": {
+      "mean_sents_per_para": 20,
+      "std_sents_per_para": 8.49,
+      "cv_sents_per_para": 0.424,
+      "mean_words_per_para": 400,
+      "std_words_per_para": 241.8,
+      "max_consecutive_same_length": 1,
+      "para_length_distribution": {
+        "26": 1,
+        "14": 1
+      },
+      "n_paragraphs": 2
+    },
+    "vocabulary": {
+      "ttr": 0.4835,
+      "mattr": 0.7754,
+      "lexical_density": 0.699,
+      "total_words": 728,
+      "unique_words": 352,
+      "ai_tier1_words_found": {
+        "synergy": 1
+      },
+      "ai_tier2_words_found": {
+        "crucial": 2,
+        "additionally": 1
+      },
+      "ai_tier3_pubmed_found": {
+        "additionally": 1,
+        "across": 1,
+        "crucial": 2,
+        "primarily": 1,
+        "within": 4,
+        "insights": 1
+      }
+    },
+    "transitions": {
+      "transition_frequency": 32.5,
+      "transitions_per_100_sentences": {
+        "contrast": 12.5,
+        "causal": 2.5,
+        "additive": 5.0,
+        "exemplifying": 5.0,
+        "temporal": 5.0,
+        "concessive": 2.5
+      },
+      "transition_distribution": {
+        "contrast": 5,
+        "causal": 1,
+        "additive": 2,
+        "exemplifying": 2,
+        "temporal": 2,
+        "concessive": 1
+      },
+      "top_sentence_starters": [
+        [
+          "nature",
+          2
+        ],
+        [
+          "the",
+          2
+        ],
+        [
+          "these",
+          2
+        ],
+        [
+          "this",
+          2
+        ],
+        [
+          "de",
+          2
+        ],
+        [
+          "have",
+          2
+        ],
+        [
+          "although",
+          1
+        ],
+        [
+          "each",
+          1
+        ],
+        [
+          "consequently",
+          1
+        ],
+        [
+          "synthetic",
+          1
+        ],
+        [
+          "embracing",
+          1
+        ],
+        [
+          "now",
+          1
+        ],
+        [
+          "report2",
+          1
+        ],
+        [
+          "several",
+          1
+        ],
+        [
+          "within",
+          1
+        ],
+        [
+          "additionally",
+          1
+        ],
+        [
+          "some",
+          1
+        ],
+        [
+          "however",
+          1
+        ],
+        [
+          "1).",
+          1
+        ],
+        [
+          "dynamin",
+          1
+        ],
+        [
+          "molecular",
+          1
+        ],
+        [
+          "given",
+          1
+        ],
+        [
+          "figure",
+          1
+        ],
+        [
+          "regardless",
+          1
+        ],
+        [
+          "at",
+          1
+        ],
+        [
+          "marks",
+          1
+        ],
+        [
+          "but",
+          1
+        ],
+        [
+          "it",
+          1
+        ],
+        [
+          "natural",
+          1
+        ],
+        [
+          "1inm",
+          1
+        ]
+      ],
+      "transition_examples": {
+        "contrast": [
+          "Although\nthe complete synthesis of a living cell from individual molecular\ncomponents remains challe",
+          "Although\nthe complete synthesis of a living cell from individual molecular\ncomponents remains challe",
+          "Consequently, the emerging\nfield of bottom-up synthetic biology is taking a modular approach to\ndeve"
+        ],
+        "causal": [
+          "Consequently, the emerging\nfield of bottom-up synthetic biology is taking a modular approach to\ndeve"
+        ],
+        "additive": [
+          "Additionally, systems\nallowing regulated deformation and constriction of synthetic cells into\nspecif",
+          "But it also emphasizes the remarkable synergy that arises\nwhen physical principles, molecular system"
+        ],
+        "exemplifying": [
+          "Additionally, systems\nallowing regulated deformation and constriction of synthetic cells into\nspecif",
+          "Natural blueprints such as dynamin A will further spark\ninspiration for synthetic cell engineers on "
+        ],
+        "temporal": [
+          "Dynamin A,\nwhich is known to interact closely with membranes and regulate\nCheck for updates\nMinimali",
+          "marks a critical technical advancement in the journey towards bottom-up construction of a first livi"
+        ],
+        "concessive": [
+          "Regardless, synchronization between\nthe cell division machinery and the genetic segregation system i"
+        ]
+      }
+    },
+    "voice_and_person": {
+      "passive_voice_pct": 15.0,
+      "active_voice_pct": 85.0,
+      "first_person_we_pct": 7.5,
+      "first_person_i_pct": 0.0
+    },
+    "copula_patterns": {
+      "simple_copulas": 16,
+      "copula_substitutes": 3,
+      "substitute_ratio_pct": 15.79
+    },
+    "readability": {
+      "flesch_reading_ease": 12.089226565783974,
+      "flesch_kincaid_grade": 16.62448928121059,
+      "gunning_fog": 20.894997898276586,
+      "smog_index": 17.879347455551382,
+      "coleman_liau": 18.246406052963426,
+      "ari": 17.973991666666663
+    },
+    "punctuation": {
+      "em_dashes_per_1000_words": 1.25,
+      "en_dashes_per_1000_words": 2.5,
+      "semicolons_per_sentence": 0.0,
+      "colons_per_sentence": 0.075,
+      "commas_per_sentence": 1.1,
+      "em_dash_count": 1,
+      "en_dash_count": 2
+    },
+    "information_density": {
+      "mean_info_density": 0.0288,
+      "std_info_density": 0.021,
+      "cv_info_density": 0.727,
+      "min_info_density": 0.014,
+      "max_info_density": 0.0437
+    },
+    "sentence_openings": {
+      "opening_pattern_counts": {
+        "other": 30,
+        "article_start": 2,
+        "dependent_clause_first": 1,
+        "demonstrative": 4,
+        "transition_word": 2,
+        "expletive": 1
+      },
+      "opening_pattern_pct": {
+        "other": 75.0,
+        "article_start": 5.0,
+        "dependent_clause_first": 2.5,
+        "demonstrative": 10.0,
+        "transition_word": 5.0,
+        "expletive": 2.5
+      }
+    }
+  },
+  {
+    "filename": "Dynamin A as a one-component division machinery for synthetic cells.pdf",
+    "total_chars": 50554,
+    "sentence_structure": {
+      "mean_length": 20.83,
+      "median_length": 19.0,
+      "std_length": 11.03,
+      "cv": 0.53,
+      "min_length": 3,
+      "max_length": 79,
+      "burstiness": -0.308,
+      "pct_short_le10": 12.8,
+      "pct_medium_11_20": 41.3,
+      "pct_long_21_35": 40.3,
+      "pct_very_long_gt35": 5.6,
+      "n_sentences": 196
+    },
+    "paragraph_structure": {
+      "mean_sents_per_para": 31.57,
+      "std_sents_per_para": 18.6,
+      "cv_sents_per_para": 0.589,
+      "mean_words_per_para": 586.9,
+      "std_words_per_para": 356.7,
+      "max_consecutive_same_length": 1,
+      "para_length_distribution": {
+        "30": 1,
+        "14": 1,
+        "44": 1,
+        "38": 1,
+        "31": 1,
+        "60": 1,
+        "4": 1
+      },
+      "n_paragraphs": 7
+    },
+    "vocabulary": {
+      "ttr": 0.2405,
+      "mattr": 0.6596,
+      "lexical_density": 0.642,
+      "total_words": 3617,
+      "unique_words": 870,
+      "ai_tier1_words_found": {},
+      "ai_tier2_words_found": {
+        "crucial": 1,
+        "furthermore": 3,
+        "moreover": 2
+      },
+      "ai_tier3_pubmed_found": {
+        "across": 6,
+        "notably": 2,
+        "crucial": 1,
+        "exhibited": 3,
+        "primarily": 1,
+        "within": 5,
+        "demonstrated": 2,
+        "insights": 1
+      }
+    },
+    "transitions": {
+      "transition_frequency": 37.6,
+      "transitions_per_100_sentences": {
+        "exemplifying": 2.7,
+        "contrast": 16.3,
+        "causal": 5.0,
+        "temporal": 6.8,
+        "additive": 4.5,
+        "emphasis": 2.3
+      },
+      "transition_distribution": {
+        "exemplifying": 6,
+        "contrast": 36,
+        "causal": 11,
+        "temporal": 15,
+        "additive": 10,
+        "emphasis": 5
+      },
+      "top_sentence_starters": [
+        [
+          "the",
+          28
+        ],
+        [
+          "this",
+          15
+        ],
+        [
+          "in",
+          14
+        ],
+        [
+          "a",
+          7
+        ],
+        [
+          "we",
+          7
+        ],
+        [
+          "dyna",
+          7
+        ],
+        [
+          "however",
+          5
+        ],
+        [
+          "b",
+          5
+        ],
+        [
+          "here",
+          4
+        ],
+        [
+          "upon",
+          4
+        ],
+        [
+          "c",
+          4
+        ],
+        [
+          "scale",
+          4
+        ],
+        [
+          "for",
+          3
+        ],
+        [
+          "note",
+          3
+        ],
+        [
+          "it",
+          2
+        ],
+        [
+          "membrane",
+          2
+        ],
+        [
+          "moreover",
+          2
+        ],
+        [
+          "notably",
+          2
+        ],
+        [
+          "d",
+          2
+        ],
+        [
+          "e",
+          2
+        ],
+        [
+          "colours",
+          2
+        ],
+        [
+          "our",
+          2
+        ],
+        [
+          "these",
+          2
+        ],
+        [
+          "when",
+          2
+        ],
+        [
+          "2",
+          2
+        ],
+        [
+          "4).",
+          2
+        ],
+        [
+          "5a).",
+          2
+        ],
+        [
+          "pie",
+          2
+        ],
+        [
+          "2.",
+          2
+        ],
+        [
+          "full",
+          2
+        ]
+      ],
+      "transition_examples": {
+        "exemplifying": [
+          "nature nanotechnology\nDynamin A as a one-component division\nmachinery for synthetic cells\nNicola De ",
+          "This is believed to be performed by other protein machinery such as\nthe ESCRT-III complex in eukaryo",
+          "For example, Bacillus subtilis DynA, which is a fusion protein\nthat combines the functionalities of "
+        ],
+        "contrast": [
+          "However, its mechanism remains poorly understood,\nimpeding its application as a cell-division machin",
+          "In eukaryotes, this process is driven by\nan actomyosin ring1, whereas constriction in bacteria is in",
+          "It is not yet fully clear how abscission is accomplished in bacteria."
+        ],
+        "causal": [
+          "Since a lipid membrane surrounds all cells, the division process\nnecessarily entails a substantial m",
+          "This is consistent with a\nscenario where hemi-scission had occurred, meaning that the inner\nleaflet ",
+          "Even on full scission, we observed that the lobes did not detach from each other, most\nprobably due "
+        ],
+        "temporal": [
+          "First, the\nmid-cell region of the cell is constricted, resulting in the formation of\na so-called dum",
+          "We reconstituted recombinant DynA inside\nliposomes that were deformed into a dumbbell shape using th",
+          "DynA localizes at the neck of dumbbell liposomes\nA high yield of dumbbell-shaped liposomes was obtai"
+        ],
+        "additive": [
+          "Following constriction, the final step\nconsists of membrane scission of the neck (also termed abscis",
+          "Moreover, DynA was shown to counteract stress-induced\npores16 during phage infections17.",
+          "Inevitably, they\nboth also entail the same hemi-scission/hemi-fusion intermediate\nstate (Fig."
+        ],
+        "emphasis": [
+          "Notably, membrane scission and\nfusion involve the same \u2018topological reaction\u2019, but run in opposite\nd",
+          "DynA induces fusion of the inner leaflet that\nsignals a hemi-scission state\nTo verify that the parti",
+          "Importantly, in 100% of the cases in which the soluble dye did\nnot recover, we observed either parti"
+        ]
+      }
+    },
+    "voice_and_person": {
+      "passive_voice_pct": 15.9,
+      "active_voice_pct": 84.1,
+      "first_person_we_pct": 16.8,
+      "first_person_i_pct": 0.0
+    },
+    "copula_patterns": {
+      "simple_copulas": 106,
+      "copula_substitutes": 0,
+      "substitute_ratio_pct": 0.0
+    },
+    "readability": {
+      "flesch_reading_ease": 37.30736937235312,
+      "flesch_kincaid_grade": 12.898258885263772,
+      "gunning_fog": 15.700909255331394,
+      "smog_index": 14.540917508691358,
+      "coleman_liau": 13.609131075110461,
+      "ari": 14.174403206719994
+    },
+    "punctuation": {
+      "em_dashes_per_1000_words": 0.97,
+      "en_dashes_per_1000_words": 2.92,
+      "semicolons_per_sentence": 0.045,
+      "colons_per_sentence": 0.023,
+      "commas_per_sentence": 1.06,
+      "em_dash_count": 4,
+      "en_dash_count": 12
+    },
+    "information_density": {
+      "mean_info_density": 0.0584,
+      "std_info_density": 0.0289,
+      "cv_info_density": 0.494,
+      "min_info_density": 0.0235,
+      "max_info_density": 0.095
+    },
+    "sentence_openings": {
+      "opening_pattern_counts": {
+        "other": 133,
+        "transition_word": 12,
+        "meta_discourse": 5,
+        "article_start": 36,
+        "dependent_clause_first": 5,
+        "demonstrative": 19,
+        "expletive": 2,
+        "first_person": 9
+      },
+      "opening_pattern_pct": {
+        "other": 60.2,
+        "transition_word": 5.4,
+        "meta_discourse": 2.3,
+        "article_start": 16.3,
+        "dependent_clause_first": 2.3,
+        "demonstrative": 8.6,
+        "expletive": 0.9,
+        "first_person": 4.1
+      }
+    }
+  },
+  {
+    "filename": "Giant spin Hall effect in AB-stacked MoTe2WSe2 bilayers.pdf",
+    "total_chars": 46814,
+    "sentence_structure": {
+      "mean_length": 18.06,
+      "median_length": 17.0,
+      "std_length": 10.06,
+      "cv": 0.557,
+      "min_length": 3,
+      "max_length": 61,
+      "burstiness": -0.284,
+      "pct_short_le10": 22.5,
+      "pct_medium_11_20": 48.3,
+      "pct_long_21_35": 23.6,
+      "pct_very_long_gt35": 5.6,
+      "n_sentences": 178
+    },
+    "paragraph_structure": {
+      "mean_sents_per_para": 39.6,
+      "std_sents_per_para": 30.94,
+      "cv_sents_per_para": 0.781,
+      "mean_words_per_para": 647,
+      "std_words_per_para": 442.3,
+      "max_consecutive_same_length": 1,
+      "para_length_distribution": {
+        "30": 1,
+        "42": 1,
+        "91": 1,
+        "25": 1,
+        "10": 1
+      },
+      "n_paragraphs": 5
+    },
+    "vocabulary": {
+      "ttr": 0.2483,
+      "mattr": 0.6594,
+      "lexical_density": 0.644,
+      "total_words": 2815,
+      "unique_words": 699,
+      "ai_tier1_words_found": {
+        "interplay": 2
+      },
+      "ai_tier2_words_found": {
+        "moreover": 1,
+        "highlight": 1
+      },
+      "ai_tier3_pubmed_found": {
+        "across": 1
+      }
+    },
+    "transitions": {
+      "transition_frequency": 27.3,
+      "transitions_per_100_sentences": {
+        "contrast": 8.6,
+        "additive": 6.6,
+        "causal": 7.6,
+        "exemplifying": 0.5,
+        "temporal": 4.0
+      },
+      "transition_distribution": {
+        "contrast": 17,
+        "additive": 13,
+        "causal": 15,
+        "exemplifying": 1,
+        "temporal": 8
+      },
+      "top_sentence_starters": [
+        [
+          "the",
+          54
+        ],
+        [
+          "we",
+          11
+        ],
+        [
+          "in",
+          9
+        ],
+        [
+          "this",
+          5
+        ],
+        [
+          "however",
+          3
+        ],
+        [
+          "here",
+          3
+        ],
+        [
+          "at",
+          3
+        ],
+        [
+          "a",
+          3
+        ],
+        [
+          "it",
+          3
+        ],
+        [
+          "figure",
+          3
+        ],
+        [
+          "under",
+          2
+        ],
+        [
+          "our",
+          2
+        ],
+        [
+          "for",
+          2
+        ],
+        [
+          "these",
+          2
+        ],
+        [
+          "black",
+          2
+        ],
+        [
+          "5).",
+          2
+        ],
+        [
+          "next",
+          2
+        ],
+        [
+          "2d).",
+          2
+        ],
+        [
+          "as",
+          2
+        ],
+        [
+          "concurrently",
+          2
+        ],
+        [
+          "further",
+          2
+        ],
+        [
+          "nature",
+          1
+        ],
+        [
+          "achieving",
+          1
+        ],
+        [
+          "materials",
+          1
+        ],
+        [
+          "but",
+          1
+        ],
+        [
+          "tailoring",
+          1
+        ],
+        [
+          "rich",
+          1
+        ],
+        [
+          "one",
+          1
+        ],
+        [
+          "2kavli",
+          1
+        ],
+        [
+          "3department",
+          1
+        ]
+      ],
+      "transition_examples": {
+        "contrast": [
+          "In general, stronger spin\u2013orbit\ncoupling favours larger SHEs but shorter spin relaxation times and d",
+          "However, correlated magnetic materials often do not support\nlarge SHEs.",
+          "Achieving large SHEs, long-range spin transport and magnetism\nsimultaneously in a single material is"
+        ],
+        "additive": [
+          "We also demonstrate long-range spin\nHall transport and efficient non-local spin accumulation that is",
+          "In\nparticular, monolayer transition metal dichalcogenides (TMDs) with\nstrong Ising spin\u2013orbit coupli",
+          "The MCD is correlated with the transport characteristics\nand also exhibits a spontaneous signal and "
+        ],
+        "causal": [
+          "In\nparticular, monolayer transition metal dichalcogenides (TMDs) with\nstrong Ising spin\u2013orbit coupli",
+          "But the\neffect is weak because Berry curvature spreads over large momentum space near the K (K\u2019) poi",
+          "Rich quantum phenomena due to the effects of strong electronic correlations\nand non-trivial band top"
+        ],
+        "exemplifying": [
+          "Tailoring the\nelectronic band structure by forming moir\u00e9 heterostructures, namely\nby creating gapped"
+        ],
+        "temporal": [
+          "The low-energy physics can be mapped to the\nKane\u2013Mele\u2013Hubbard model26,28\u201330 with interlayer (nearest",
+          "Next, we fine-tuned the gate voltages to the middle of the\ninteraction-driven Chern state near band ",
+          "We then studied the gate dependence of the SHE to explore\nits origin."
+        ]
+      }
+    },
+    "voice_and_person": {
+      "passive_voice_pct": 18.4,
+      "active_voice_pct": 81.6,
+      "first_person_we_pct": 12.2,
+      "first_person_i_pct": 0.5
+    },
+    "copula_patterns": {
+      "simple_copulas": 108,
+      "copula_substitutes": 2,
+      "substitute_ratio_pct": 1.82
+    },
+    "readability": {
+      "flesch_reading_ease": 46.28939600390419,
+      "flesch_kincaid_grade": 10.61369826909473,
+      "gunning_fog": 13.671755410757939,
+      "smog_index": 13.078947436978055,
+      "coleman_liau": 11.717217716781036,
+      "ari": 10.932777633982383
+    },
+    "punctuation": {
+      "em_dashes_per_1000_words": 0.0,
+      "en_dashes_per_1000_words": 6.8,
+      "semicolons_per_sentence": 0.015,
+      "colons_per_sentence": 0.036,
+      "commas_per_sentence": 0.8,
+      "em_dash_count": 0,
+      "en_dash_count": 22
+    },
+    "information_density": {
+      "mean_info_density": 0.0911,
+      "std_info_density": 0.0361,
+      "cv_info_density": 0.397,
+      "min_info_density": 0.0424,
+      "max_info_density": 0.1442
+    },
+    "sentence_openings": {
+      "opening_pattern_counts": {
+        "other": 106,
+        "article_start": 57,
+        "transition_word": 6,
+        "meta_discourse": 3,
+        "first_person": 13,
+        "expletive": 3,
+        "demonstrative": 7,
+        "dependent_clause_first": 3
+      },
+      "opening_pattern_pct": {
+        "other": 53.5,
+        "article_start": 28.8,
+        "transition_word": 3.0,
+        "meta_discourse": 1.5,
+        "first_person": 6.6,
+        "expletive": 1.5,
+        "demonstrative": 3.5,
+        "dependent_clause_first": 1.5
+      }
+    }
+  },
+  {
+    "filename": "Lightly counting membrane proteins in native nanodiscs.pdf",
+    "total_chars": 8901,
+    "sentence_structure": {
+      "mean_length": 20.57,
+      "median_length": 19.0,
+      "std_length": 9.45,
+      "cv": 0.459,
+      "min_length": 4,
+      "max_length": 38,
+      "burstiness": -0.371,
+      "pct_short_le10": 12.5,
+      "pct_medium_11_20": 42.5,
+      "pct_long_21_35": 40.0,
+      "pct_very_long_gt35": 5.0,
+      "n_sentences": 40
+    },
+    "paragraph_structure": {
+      "mean_sents_per_para": 21,
+      "std_sents_per_para": 19.8,
+      "cv_sents_per_para": 0.943,
+      "mean_words_per_para": 412.5,
+      "std_words_per_para": 412.2,
+      "max_consecutive_same_length": 1,
+      "para_length_distribution": {
+        "35": 1,
+        "7": 1
+      },
+      "n_paragraphs": 2
+    },
+    "vocabulary": {
+      "ttr": 0.4624,
+      "mattr": 0.7277,
+      "lexical_density": 0.68,
+      "total_words": 757,
+      "unique_words": 350,
+      "ai_tier1_words_found": {},
+      "ai_tier2_words_found": {},
+      "ai_tier3_pubmed_found": {
+        "within": 2,
+        "particularly": 1
+      }
+    },
+    "transitions": {
+      "transition_frequency": 47.6,
+      "transitions_per_100_sentences": {
+        "exemplifying": 9.5,
+        "contrast": 16.7,
+        "emphasis": 4.8,
+        "causal": 7.1,
+        "temporal": 7.1,
+        "concessive": 2.4
+      },
+      "transition_distribution": {
+        "exemplifying": 4,
+        "contrast": 7,
+        "emphasis": 2,
+        "causal": 3,
+        "temporal": 3,
+        "concessive": 1
+      },
+      "top_sentence_starters": [
+        [
+          "the",
+          8
+        ],
+        [
+          "this",
+          3
+        ],
+        [
+          "nature",
+          2
+        ],
+        [
+          "these",
+          2
+        ],
+        [
+          "for",
+          2
+        ],
+        [
+          "in",
+          2
+        ],
+        [
+          "now",
+          1
+        ],
+        [
+          "nearly",
+          1
+        ],
+        [
+          "many",
+          1
+        ],
+        [
+          "and",
+          1
+        ],
+        [
+          "3).",
+          1
+        ],
+        [
+          "therefore",
+          1
+        ],
+        [
+          "until",
+          1
+        ],
+        [
+          "writing",
+          1
+        ],
+        [
+          "prior",
+          1
+        ],
+        [
+          "alternatively",
+          1
+        ],
+        [
+          "however",
+          1
+        ],
+        [
+          "because",
+          1
+        ],
+        [
+          "walker",
+          1
+        ],
+        [
+          "briefly",
+          1
+        ],
+        [
+          "tag",
+          1
+        ],
+        [
+          "thereafter",
+          1
+        ],
+        [
+          "1).",
+          1
+        ],
+        [
+          "aasty",
+          1
+        ],
+        [
+          "figure",
+          1
+        ],
+        [
+          "koushambi",
+          1
+        ],
+        [
+          "2neuroscience",
+          1
+        ],
+        [
+          "3institute",
+          1
+        ],
+        [
+          "e-mail:",
+          1
+        ]
+      ],
+      "transition_examples": {
+        "exemplifying": [
+          "For example, the tetramerization of potassium (K+) channels governs every facet of their biology,\nfr",
+          "For example, some K+ channels are activated by phosphoinositol\n-4,5-bisphosphate (PIP2), but others ",
+          "In fact, lipid\ncomposition controls the oligomerization equilibrium of transporters,\nsuch as in the "
+        ],
+        "contrast": [
+          "And although the\noligomerization of soluble proteins can be studied by several methods,\nboth at sing",
+          "And although the\noligomerization of soluble proteins can be studied by several methods,\nboth at sing",
+          "For example, some K+ channels are activated by phosphoinositol\n-4,5-bisphosphate (PIP2), but others "
+        ],
+        "emphasis": [
+          "And although the\noligomerization of soluble proteins can be studied by several methods,\nboth at sing",
+          "In fact, lipid\ncomposition controls the oligomerization equilibrium of transporters,\nsuch as in the "
+        ],
+        "causal": [
+          "This is because membrane proteins co-evolved with the lipids in\ntheir native membranes, and their fu",
+          "Therefore, methods\nthat determine the physiologically relevant oligomeric form of membrane proteins ",
+          "Because the number of GFP units in a complex equals the number of\nphotobleaching steps required to g"
+        ],
+        "temporal": [
+          "This was first achieved, albeit inefficiently, with amphipathic polymers that sliced biological memb",
+          "The fluorescent nanodiscs are then immobilized on glass substrates displaying a GFP-nanobody and obs",
+          "The robustness, low sample requirements, broad applicability and\nrelative simplicity of Native-nanoB"
+        ],
+        "concessive": [
+          "This was first achieved, albeit inefficiently, with amphipathic polymers that sliced biological memb"
+        ]
+      }
+    },
+    "voice_and_person": {
+      "passive_voice_pct": 14.3,
+      "active_voice_pct": 85.7,
+      "first_person_we_pct": 4.8,
+      "first_person_i_pct": 0.0
+    },
+    "copula_patterns": {
+      "simple_copulas": 16,
+      "copula_substitutes": 1,
+      "substitute_ratio_pct": 5.88
+    },
+    "readability": {
+      "flesch_reading_ease": 16.69652585679316,
+      "flesch_kincaid_grade": 16.00463616891065,
+      "gunning_fog": 18.50047735618115,
+      "smog_index": 16.46564046220383,
+      "coleman_liau": 18.878335373317018,
+      "ari": 18.795190909090913
+    },
+    "punctuation": {
+      "em_dashes_per_1000_words": 0.0,
+      "en_dashes_per_1000_words": 2.42,
+      "semicolons_per_sentence": 0.024,
+      "colons_per_sentence": 0.048,
+      "commas_per_sentence": 1.4,
+      "em_dash_count": 0,
+      "en_dash_count": 2
+    },
+    "information_density": {
+      "mean_info_density": 0.0874,
+      "std_info_density": 0.0634,
+      "cv_info_density": 0.725,
+      "min_info_density": 0.0426,
+      "max_info_density": 0.1322
+    },
+    "sentence_openings": {
+      "opening_pattern_counts": {
+        "other": 27,
+        "demonstrative": 5,
+        "article_start": 8,
+        "transition_word": 1,
+        "dependent_clause_first": 1
+      },
+      "opening_pattern_pct": {
+        "other": 64.3,
+        "demonstrative": 11.9,
+        "article_start": 19.0,
+        "transition_word": 2.4,
+        "dependent_clause_first": 2.4
+      }
+    }
+  },
+  {
+    "filename": "Adapted poling to break the nonlinear efficiency limit in nanophotonic lithium niobate waveguides.pdf",
+    "total_chars": 45218,
+    "sentence_structure": {
+      "mean_length": 21.8,
+      "median_length": 20.0,
+      "std_length": 11.67,
+      "cv": 0.535,
+      "min_length": 4,
+      "max_length": 79,
+      "burstiness": -0.303,
+      "pct_short_le10": 11.3,
+      "pct_medium_11_20": 41.5,
+      "pct_long_21_35": 37.3,
+      "pct_very_long_gt35": 9.9,
+      "n_sentences": 142
+    },
+    "paragraph_structure": {
+      "mean_sents_per_para": 27.83,
+      "std_sents_per_para": 16.88,
+      "cv_sents_per_para": 0.607,
+      "mean_words_per_para": 520.2,
+      "std_words_per_para": 298.6,
+      "max_consecutive_same_length": 2,
+      "para_length_distribution": {
+        "21": 2,
+        "30": 1,
+        "51": 1,
+        "41": 1,
+        "3": 1
+      },
+      "n_paragraphs": 6
+    },
+    "vocabulary": {
+      "ttr": 0.23,
+      "mattr": 0.6411,
+      "lexical_density": 0.7,
+      "total_words": 2743,
+      "unique_words": 631,
+      "ai_tier1_words_found": {},
+      "ai_tier2_words_found": {
+        "enhance": 1,
+        "furthermore": 1,
+        "key": 1
+      },
+      "ai_tier3_pubmed_found": {
+        "across": 2,
+        "within": 1,
+        "demonstrated": 7
+      }
+    },
+    "transitions": {
+      "transition_frequency": 59.9,
+      "transitions_per_100_sentences": {
+        "causal": 6.0,
+        "temporal": 41.9,
+        "contrast": 3.0,
+        "exemplifying": 3.6,
+        "additive": 4.8,
+        "concessive": 0.6
+      },
+      "transition_distribution": {
+        "causal": 10,
+        "temporal": 70,
+        "contrast": 5,
+        "exemplifying": 6,
+        "additive": 8,
+        "concessive": 1
+      },
+      "top_sentence_starters": [
+        [
+          "the",
+          29
+        ],
+        [
+          "we",
+          11
+        ],
+        [
+          "this",
+          6
+        ],
+        [
+          "it",
+          5
+        ],
+        [
+          "then",
+          5
+        ],
+        [
+          "b",
+          4
+        ],
+        [
+          "scale",
+          4
+        ],
+        [
+          "however",
+          3
+        ],
+        [
+          "here",
+          3
+        ],
+        [
+          "therefore",
+          3
+        ],
+        [
+          "with",
+          3
+        ],
+        [
+          "a",
+          3
+        ],
+        [
+          "c",
+          3
+        ],
+        [
+          "as",
+          3
+        ],
+        [
+          "using",
+          3
+        ],
+        [
+          "lithium",
+          2
+        ],
+        [
+          "compared",
+          2
+        ],
+        [
+          "unfortunately",
+          2
+        ],
+        [
+          "for",
+          2
+        ],
+        [
+          "1c).",
+          2
+        ],
+        [
+          "1b).",
+          2
+        ],
+        [
+          "1f).",
+          2
+        ],
+        [
+          "2f).",
+          2
+        ],
+        [
+          "by",
+          2
+        ],
+        [
+          "in",
+          2
+        ],
+        [
+          "nature",
+          1
+        ],
+        [
+          "phase-matching",
+          1
+        ],
+        [
+          "our",
+          1
+        ],
+        [
+          "most",
+          1
+        ],
+        [
+          "recently",
+          1
+        ]
+      ],
+      "transition_examples": {
+        "causal": [
+          "Lithium niobate with periodic poling is the most\nwidely used material for frequency mixing due to it",
+          "Our work therefore breaks the trade-off between the\nconversion ratio and pump power, offering a pote",
+          "Lithium niobate is one of the most important materials for photonics because of the strong second-or"
+        ],
+        "temporal": [
+          "Lithium niobate with periodic poling is the most\nwidely used material for frequency mixing due to it",
+          "Here we show improved second-order nonlinear efficiency in\nnanophotonic lithium niobate waveguides t",
+          "We\nrealize an overall second-harmonic efficiency of 104%\u2009W\u22121 (without cavity\nenhancement), approachi"
+        ],
+        "contrast": [
+          "However,\nthe intrinsic nanoscale inhomogeneity of nanophotonic lithium niobate\nwaveguides limits the",
+          "However, waveguide-based second-order nonlinear\nimpressive improvements have been demonstrated in al",
+          "Effects of nanoscale inhomogeneity\nThe subwavelength confinement of optical fields leads to the incr"
+        ],
+        "exemplifying": [
+          "However, waveguide-based second-order nonlinear\nimpressive improvements have been demonstrated in al",
+          "Besides the performance\nimprovement, nanophotonic lithium niobate modulators have also\nbeen used to ",
+          "Here we purpose the adapted poling approach to overcome the\ninhomogenous limit and demonstrate nanop"
+        ],
+        "additive": [
+          "Besides the performance\nimprovement, nanophotonic lithium niobate modulators have also\nbeen used to ",
+          "Similarly, it is expected that the nanophotonic lithium niobate\nplatform can also bring revolutioniz",
+          "Similarly, it is expected that the nanophotonic lithium niobate\nplatform can also bring revolutioniz"
+        ],
+        "concessive": [
+          "ideal quasi-phase-matching conditions can be realized along the entire\nwaveguide despite the nanosca"
+        ]
+      }
+    },
+    "voice_and_person": {
+      "passive_voice_pct": 17.6,
+      "active_voice_pct": 82.4,
+      "first_person_we_pct": 18.8,
+      "first_person_i_pct": 0.0
+    },
+    "copula_patterns": {
+      "simple_copulas": 59,
+      "copula_substitutes": 0,
+      "substitute_ratio_pct": 0.0
+    },
+    "readability": {
+      "flesch_reading_ease": 15.636916219292601,
+      "flesch_kincaid_grade": 16.141643420203188,
+      "gunning_fog": 19.940882063130715,
+      "smog_index": 17.290186641512403,
+      "coleman_liau": 18.221691413815368,
+      "ari": 18.440882392620445
+    },
+    "punctuation": {
+      "em_dashes_per_1000_words": 0.0,
+      "en_dashes_per_1000_words": 5.45,
+      "semicolons_per_sentence": 0.0,
+      "colons_per_sentence": 0.024,
+      "commas_per_sentence": 0.87,
+      "em_dash_count": 0,
+      "en_dash_count": 17
+    },
+    "information_density": {
+      "mean_info_density": 0.0641,
+      "std_info_density": 0.0338,
+      "cv_info_density": 0.527,
+      "min_info_density": 0.0,
+      "max_info_density": 0.0895
+    },
+    "sentence_openings": {
+      "opening_pattern_counts": {
+        "other": 98,
+        "article_start": 32,
+        "transition_word": 5,
+        "meta_discourse": 3,
+        "demonstrative": 7,
+        "first_person": 12,
+        "expletive": 5,
+        "dependent_clause_first": 5
+      },
+      "opening_pattern_pct": {
+        "other": 58.7,
+        "article_start": 19.2,
+        "transition_word": 3.0,
+        "meta_discourse": 1.8,
+        "demonstrative": 4.2,
+        "first_person": 7.2,
+        "expletive": 3.0,
+        "dependent_clause_first": 3.0
+      }
+    }
+  },
+  {
+    "filename": "Ultrahigh-printing-speed photoresists for additive manufacturing.pdf",
+    "total_chars": 47042,
+    "sentence_structure": {
+      "mean_length": 21.09,
+      "median_length": 21,
+      "std_length": 10.72,
+      "cv": 0.508,
+      "min_length": 3,
+      "max_length": 51,
+      "burstiness": -0.326,
+      "pct_short_le10": 16.0,
+      "pct_medium_11_20": 33.1,
+      "pct_long_21_35": 39.8,
+      "pct_very_long_gt35": 11.0,
+      "n_sentences": 181
+    },
+    "paragraph_structure": {
+      "mean_sents_per_para": 34.83,
+      "std_sents_per_para": 15.84,
+      "cv_sents_per_para": 0.455,
+      "mean_words_per_para": 641.3,
+      "std_words_per_para": 251.7,
+      "max_consecutive_same_length": 1,
+      "para_length_distribution": {
+        "20": 1,
+        "53": 1,
+        "44": 1,
+        "23": 1,
+        "50": 1,
+        "19": 1
+      },
+      "n_paragraphs": 6
+    },
+    "vocabulary": {
+      "ttr": 0.2628,
+      "mattr": 0.6287,
+      "lexical_density": 0.661,
+      "total_words": 3185,
+      "unique_words": 837,
+      "ai_tier1_words_found": {},
+      "ai_tier2_words_found": {
+        "enhance": 1,
+        "furthermore": 4,
+        "key": 3,
+        "moreover": 2
+      },
+      "ai_tier3_pubmed_found": {
+        "significantly": 1,
+        "within": 2,
+        "demonstrated": 2,
+        "notably": 1
+      }
+    },
+    "transitions": {
+      "transition_frequency": 28.2,
+      "transitions_per_100_sentences": {
+        "contrast": 6.2,
+        "additive": 4.8,
+        "causal": 4.3,
+        "exemplifying": 2.4,
+        "temporal": 8.6,
+        "emphasis": 1.4,
+        "concessive": 0.5
+      },
+      "transition_distribution": {
+        "contrast": 13,
+        "additive": 10,
+        "causal": 9,
+        "exemplifying": 5,
+        "temporal": 18,
+        "emphasis": 3,
+        "concessive": 1
+      },
+      "top_sentence_starters": [
+        [
+          "the",
+          43
+        ],
+        [
+          "scale",
+          10
+        ],
+        [
+          "we",
+          9
+        ],
+        [
+          "in",
+          8
+        ],
+        [
+          "to",
+          5
+        ],
+        [
+          "a",
+          5
+        ],
+        [
+          "as",
+          5
+        ],
+        [
+          "furthermore",
+          4
+        ],
+        [
+          "more",
+          3
+        ],
+        [
+          "by",
+          3
+        ],
+        [
+          "with",
+          3
+        ],
+        [
+          "b",
+          3
+        ],
+        [
+          "using",
+          2
+        ],
+        [
+          "meanwhile",
+          2
+        ],
+        [
+          "it",
+          2
+        ],
+        [
+          "moreover",
+          2
+        ],
+        [
+          "c,d",
+          2
+        ],
+        [
+          "g",
+          2
+        ],
+        [
+          "h",
+          2
+        ],
+        [
+          "d",
+          2
+        ],
+        [
+          "nature",
+          1
+        ],
+        [
+          "although",
+          1
+        ],
+        [
+          "here",
+          1
+        ],
+        [
+          "calculations",
+          1
+        ],
+        [
+          "additive",
+          1
+        ],
+        [
+          "among",
+          1
+        ],
+        [
+          "15);",
+          1
+        ],
+        [
+          "2research",
+          1
+        ],
+        [
+          "3state",
+          1
+        ],
+        [
+          "4moe",
+          1
+        ]
+      ],
+      "transition_examples": {
+        "contrast": [
+          "Although this methodology can\novercome the Rayleigh limit to achieve nanoscale structures, it still ",
+          "Although this methodology can\novercome the Rayleigh limit to achieve nanoscale structures, it still ",
+          "15); however, the manufacturing throughput of TPL is\nlimited, so far making TPL a laboratory tool wi"
+        ],
+        "additive": [
+          "Furthermore, the extremely small chemical components of the ZrO2-BTMST\nphotoresist enable high-preci",
+          "Moreover, the ZrO2 hybrid\nphotoresist possesses an extremely small component size, which is an\nimpor",
+          "More complex 3D hollow fullerene and\nmetamaterial cube microstructures are also fabricated (Fig."
+        ],
+        "causal": [
+          "Additive manufacturing techniques have been widely employed in\nvarious fields such as microfluidics1",
+          "Among these\nmethods, laser-direct-printing-based TPL is regarded as one of the most\npromising method",
+          "A linear printing speed approaching the metres-per-second\nlevel can therefore be achieved, which is "
+        ],
+        "exemplifying": [
+          "Additive manufacturing techniques have been widely employed in\nvarious fields such as microfluidics1",
+          "In the manufacturing\nof micro/nanostructures, numerous advanced additive manufacturing\nmethods have ",
+          "In lithography fields, photoresists always behave as a\ngame-changer in the development of new lithog"
+        ],
+        "temporal": [
+          "The common printing speed of TPL\nis slow, usually at the level of micrometres or millimetres per sec",
+          "More recently, the lithography field has again\nfaced the light source power limit at 13.5\u2009nm wavelen",
+          "A linear printing speed approaching the metres-per-second\nlevel can therefore be achieved, which is "
+        ],
+        "emphasis": [
+          "Notably, the stable operating speed of this TPL machine is arround\n0.5\u2009m\u2009s\u20131; the above lithographic",
+          "More importantly, this neutral feature may also be the\nsource of its unusual sensitivity: once the c",
+          "The design\nof highly sensitive photoresist materials with exceptional printing\nspeeds would signific"
+        ],
+        "concessive": [
+          "Meanwhile, according to atomic\nforce microscope results, the line thickness almost keeps constant at"
+        ]
+      }
+    },
+    "voice_and_person": {
+      "passive_voice_pct": 11.5,
+      "active_voice_pct": 88.5,
+      "first_person_we_pct": 12.5,
+      "first_person_i_pct": 0.0
+    },
+    "copula_patterns": {
+      "simple_copulas": 96,
+      "copula_substitutes": 0,
+      "substitute_ratio_pct": 0.0
+    },
+    "readability": {
+      "flesch_reading_ease": 40.94647579385739,
+      "flesch_kincaid_grade": 11.77138990109318,
+      "gunning_fog": 15.139406559083813,
+      "smog_index": 13.970938123390575,
+      "coleman_liau": 13.151119208745445,
+      "ari": 13.20144230769231
+    },
+    "punctuation": {
+      "em_dashes_per_1000_words": 0.52,
+      "en_dashes_per_1000_words": 15.33,
+      "semicolons_per_sentence": 0.072,
+      "colons_per_sentence": 0.043,
+      "commas_per_sentence": 1.15,
+      "em_dash_count": 2,
+      "en_dash_count": 59
+    },
+    "information_density": {
+      "mean_info_density": 0.1343,
+      "std_info_density": 0.0473,
+      "cv_info_density": 0.352,
+      "min_info_density": 0.0778,
+      "max_info_density": 0.2202
+    },
+    "sentence_openings": {
+      "opening_pattern_counts": {
+        "other": 133,
+        "dependent_clause_first": 6,
+        "meta_discourse": 3,
+        "first_person": 9,
+        "transition_word": 6,
+        "article_start": 49,
+        "expletive": 2,
+        "demonstrative": 1
+      },
+      "opening_pattern_pct": {
+        "other": 63.6,
+        "dependent_clause_first": 2.9,
+        "meta_discourse": 1.4,
+        "first_person": 4.3,
+        "transition_word": 2.9,
+        "article_start": 23.4,
+        "expletive": 1.0,
+        "demonstrative": 0.5
+      }
+    }
+  },
+  {
+    "filename": "Self-regulated underwater phototaxis of a photoresponsive hydrogel-based phototactic vehicle.pdf",
+    "total_chars": 57460,
+    "sentence_structure": {
+      "mean_length": 21.29,
+      "median_length": 19,
+      "std_length": 11.6,
+      "cv": 0.545,
+      "min_length": 3,
+      "max_length": 69,
+      "burstiness": -0.295,
+      "pct_short_le10": 14.9,
+      "pct_medium_11_20": 39.5,
+      "pct_long_21_35": 33.8,
+      "pct_very_long_gt35": 11.8,
+      "n_sentences": 195
+    },
+    "paragraph_structure": {
+      "mean_sents_per_para": 33.43,
+      "std_sents_per_para": 18.28,
+      "cv_sents_per_para": 0.547,
+      "mean_words_per_para": 599.4,
+      "std_words_per_para": 329.3,
+      "max_consecutive_same_length": 1,
+      "para_length_distribution": {
+        "22": 1,
+        "35": 1,
+        "23": 1,
+        "72": 1,
+        "19": 1,
+        "37": 1,
+        "26": 1
+      },
+      "n_paragraphs": 7
+    },
+    "vocabulary": {
+      "ttr": 0.2719,
+      "mattr": 0.6827,
+      "lexical_density": 0.65,
+      "total_words": 3736,
+      "unique_words": 1016,
+      "ai_tier1_words_found": {
+        "harness": 1,
+        "synergy": 3
+      },
+      "ai_tier2_words_found": {
+        "robust": 2,
+        "enhancing": 1,
+        "key": 1,
+        "highlight": 1
+      },
+      "ai_tier3_pubmed_found": {
+        "demonstrated": 3,
+        "across": 3,
+        "notably": 1,
+        "exhibited": 2,
+        "within": 2,
+        "illuminated": 16
+      }
+    },
+    "transitions": {
+      "transition_frequency": 26.9,
+      "transitions_per_100_sentences": {
+        "contrast": 7.7,
+        "exemplifying": 3.0,
+        "causal": 9.4,
+        "temporal": 2.6,
+        "additive": 3.8,
+        "emphasis": 0.4
+      },
+      "transition_distribution": {
+        "contrast": 18,
+        "exemplifying": 7,
+        "causal": 22,
+        "temporal": 6,
+        "additive": 9,
+        "emphasis": 1
+      },
+      "top_sentence_starters": [
+        [
+          "the",
+          38
+        ],
+        [
+          "we",
+          8
+        ],
+        [
+          "by",
+          7
+        ],
+        [
+          "to",
+          7
+        ],
+        [
+          "in",
+          5
+        ],
+        [
+          "d",
+          4
+        ],
+        [
+          "here",
+          3
+        ],
+        [
+          "however",
+          3
+        ],
+        [
+          "e",
+          3
+        ],
+        [
+          "f",
+          3
+        ],
+        [
+          "g",
+          3
+        ],
+        [
+          "h",
+          3
+        ],
+        [
+          "b",
+          3
+        ],
+        [
+          "c",
+          3
+        ],
+        [
+          "for",
+          3
+        ],
+        [
+          "these",
+          2
+        ],
+        [
+          "1).",
+          2
+        ],
+        [
+          "once",
+          2
+        ],
+        [
+          "this",
+          2
+        ],
+        [
+          "i",
+          2
+        ],
+        [
+          "2).",
+          2
+        ],
+        [
+          "as",
+          2
+        ],
+        [
+          "our",
+          2
+        ],
+        [
+          "4).",
+          2
+        ],
+        [
+          "following",
+          2
+        ],
+        [
+          "therefore",
+          2
+        ],
+        [
+          "when",
+          2
+        ],
+        [
+          "2j).",
+          2
+        ],
+        [
+          "2m).",
+          2
+        ],
+        [
+          "due",
+          2
+        ]
+      ],
+      "transition_examples": {
+        "contrast": [
+          "However, control of\nthese artificial systems still relies on preprogrammed electronics and\nhuman att",
+          "2b);\n(3) a mechanical strain gradient and a new density distribution are\nformed, that is, when the l",
+          "While illuminated, the\nuntethered soft machine harnesses directional photonic energy."
+        ],
+        "exemplifying": [
+          "However, control of\nthese artificial systems still relies on preprogrammed electronics and\nhuman att",
+          "The universal design of PTVs can be fulfilled with many\nactive materials, for example, light-active ",
+          "2b);\n(3) a mechanical strain gradient and a new density distribution are\nformed, that is, when the l"
+        ],
+        "causal": [
+          "The bell contains an air bubble as an active component that\nwould move away from the centre position",
+          "Once illuminated, three asymmetries of the PTV are induced simultaneously: (1) a temperature gradien",
+          "Accordingly, it induces asymmetry of temperature, flow fields and\nmorphology22."
+        ],
+        "temporal": [
+          "f, Actuation and recovery rate (for 16\u00b0\nbending) of the ultrafast hydrogel designed for the PTV and ",
+          "2f), which is the same as its shrinking rate,\nand 30 times faster than the best previously reported ",
+          "Considering an\ninitially fixed PTV that is illuminated under a stable light intensity\n(lower than on"
+        ],
+        "additive": [
+          "Considering an\ninitially fixed PTV that is illuminated under a stable light intensity\n(lower than on",
+          "2k, the horizontal asymmetry of the vortices around the PTV\nis due to the PIV test laser from the ri",
+          "The heated surface reflects the directional\ninformation of the incidence but also generates an ascen"
+        ],
+        "emphasis": [
+          "By maintaining the illumination of the brightest\nlight, the highest speed of the PTV is 18\u2009mm\u2009s\u22121 an"
+        ]
+      }
+    },
+    "voice_and_person": {
+      "passive_voice_pct": 7.8,
+      "active_voice_pct": 92.2,
+      "first_person_we_pct": 12.1,
+      "first_person_i_pct": 0.0
+    },
+    "copula_patterns": {
+      "simple_copulas": 70,
+      "copula_substitutes": 1,
+      "substitute_ratio_pct": 1.41
+    },
+    "readability": {
+      "flesch_reading_ease": 25.705745675549338,
+      "flesch_kincaid_grade": 14.696455249077971,
+      "gunning_fog": 18.39042127681679,
+      "smog_index": 16.35196415179448,
+      "coleman_liau": 14.84449223416965,
+      "ari": 15.76344064740747
+    },
+    "punctuation": {
+      "em_dashes_per_1000_words": 0.0,
+      "en_dashes_per_1000_words": 1.67,
+      "semicolons_per_sentence": 0.017,
+      "colons_per_sentence": 0.026,
+      "commas_per_sentence": 1.23,
+      "em_dash_count": 0,
+      "en_dash_count": 7
+    },
+    "information_density": {
+      "mean_info_density": 0.0807,
+      "std_info_density": 0.0123,
+      "cv_info_density": 0.153,
+      "min_info_density": 0.0644,
+      "max_info_density": 0.0993
+    },
+    "sentence_openings": {
+      "opening_pattern_counts": {
+        "other": 165,
+        "meta_discourse": 3,
+        "article_start": 39,
+        "first_person": 10,
+        "demonstrative": 4,
+        "transition_word": 3,
+        "dependent_clause_first": 9,
+        "expletive": 1
+      },
+      "opening_pattern_pct": {
+        "other": 70.5,
+        "meta_discourse": 1.3,
+        "article_start": 16.7,
+        "first_person": 4.3,
+        "demonstrative": 1.7,
+        "transition_word": 1.3,
+        "dependent_clause_first": 3.8,
+        "expletive": 0.4
+      }
+    }
+  },
+  {
+    "filename": "Imaging DNA origami by fluorescence in situ hybridization.pdf",
+    "total_chars": 8950,
+    "sentence_structure": {
+      "mean_length": 22.55,
+      "median_length": 21,
+      "std_length": 15.39,
+      "cv": 0.683,
+      "min_length": 4,
+      "max_length": 67,
+      "burstiness": -0.189,
+      "pct_short_le10": 32.3,
+      "pct_medium_11_20": 12.9,
+      "pct_long_21_35": 35.5,
+      "pct_very_long_gt35": 19.4,
+      "n_sentences": 31
+    },
+    "paragraph_structure": {
+      "mean_sents_per_para": 10.33,
+      "std_sents_per_para": 9.71,
+      "cv_sents_per_para": 0.94,
+      "mean_words_per_para": 233,
+      "std_words_per_para": 226.9,
+      "max_consecutive_same_length": 1,
+      "para_length_distribution": {
+        "21": 1,
+        "8": 1,
+        "2": 1
+      },
+      "n_paragraphs": 3
+    },
+    "vocabulary": {
+      "ttr": 0.5016,
+      "mattr": 0.7248,
+      "lexical_density": 0.679,
+      "total_words": 636,
+      "unique_words": 319,
+      "ai_tier1_words_found": {
+        "interplay": 1
+      },
+      "ai_tier2_words_found": {
+        "robust": 1,
+        "innovative": 1
+      },
+      "ai_tier3_pubmed_found": {
+        "across": 1,
+        "notably": 1,
+        "within": 2,
+        "demonstrated": 1,
+        "insights": 1
+      }
+    },
+    "transitions": {
+      "transition_frequency": 61.3,
+      "transitions_per_100_sentences": {
+        "contrast": 29.0,
+        "emphasis": 3.2,
+        "exemplifying": 16.1,
+        "causal": 3.2,
+        "temporal": 6.5,
+        "additive": 3.2
+      },
+      "transition_distribution": {
+        "contrast": 9,
+        "emphasis": 1,
+        "exemplifying": 5,
+        "causal": 1,
+        "temporal": 2,
+        "additive": 1
+      },
+      "top_sentence_starters": [
+        [
+          "the",
+          3
+        ],
+        [
+          "nature",
+          2
+        ],
+        [
+          "dna",
+          2
+        ],
+        [
+          "in",
+          2
+        ],
+        [
+          "although",
+          2
+        ],
+        [
+          "to",
+          2
+        ],
+        [
+          "most",
+          1
+        ],
+        [
+          "a",
+          1
+        ],
+        [
+          "now",
+          1
+        ],
+        [
+          "report",
+          1
+        ],
+        [
+          "current",
+          1
+        ],
+        [
+          "check",
+          1
+        ],
+        [
+          "upon",
+          1
+        ],
+        [
+          "scale",
+          1
+        ],
+        [
+          "credit:",
+          1
+        ],
+        [
+          "6",
+          1
+        ],
+        [
+          "this",
+          1
+        ],
+        [
+          "builds",
+          1
+        ],
+        [
+          "origamifish",
+          1
+        ],
+        [
+          "future",
+          1
+        ],
+        [
+          "as",
+          1
+        ],
+        [
+          "potential",
+          1
+        ],
+        [
+          "biomedical",
+          1
+        ],
+        [
+          "e-mail:",
+          1
+        ]
+      ],
+      "transition_examples": {
+        "contrast": [
+          "The\nprobes enable sensitive detection of DNA\norigami nanostructures in cells, organoids\nand tissues ",
+          "Although DNA origami offers appealing properties for biomedical\napplications, it has remained challe",
+          "Although DNA origami offers appealing properties for biomedical\napplications, it has remained challe"
+        ],
+        "emphasis": [
+          "Most notably, DNA origami\u2014\nthe rational design of programmable folding of DNA strands into well\ndefi"
+        ],
+        "exemplifying": [
+          "In particular, DNA origami nanostructures are promising candidates for interfacing with biological s",
+          "Although fluorescence-based approaches allow\nincreased throughput and resolution depending on the im",
+          "Although fluorescence-based approaches allow\nincreased throughput and resolution depending on the im"
+        ],
+        "causal": [
+          "Although fluorescence-based approaches allow\nincreased throughput and resolution depending on the im"
+        ],
+        "temporal": [
+          "To detect the M13mp18-derived\nscaffold, structure-specific staple strands are thermo-annealed, and t",
+          "The origamiFISH-labelled cells are then imaged under a fluorescence\nmicroscope."
+        ],
+        "additive": [
+          "In addition, multiplexed origami-\nFISH imaging could be achieved by using sequence-barcoded DNA to\nc"
+        ]
+      }
+    },
+    "voice_and_person": {
+      "passive_voice_pct": 16.7,
+      "active_voice_pct": 83.3,
+      "first_person_we_pct": 0.0,
+      "first_person_i_pct": 0.0
+    },
+    "copula_patterns": {
+      "simple_copulas": 13,
+      "copula_substitutes": 0,
+      "substitute_ratio_pct": 0.0
+    },
+    "readability": {
+      "flesch_reading_ease": 5.276811688311739,
+      "flesch_kincaid_grade": 18.26200144300144,
+      "gunning_fog": 22.515613275613276,
+      "smog_index": 19.219720311224798,
+      "coleman_liau": 19.183261183261184,
+      "ari": 20.152145922746783
+    },
+    "punctuation": {
+      "em_dashes_per_1000_words": 2.86,
+      "en_dashes_per_1000_words": 2.86,
+      "semicolons_per_sentence": 0.0,
+      "colons_per_sentence": 0.133,
+      "commas_per_sentence": 1.37,
+      "em_dash_count": 2,
+      "en_dash_count": 2
+    },
+    "information_density": {
+      "mean_info_density": 0.0778,
+      "std_info_density": 0.0116,
+      "cv_info_density": 0.149,
+      "min_info_density": 0.0686,
+      "max_info_density": 0.0909
+    },
+    "sentence_openings": {
+      "opening_pattern_counts": {
+        "other": 23,
+        "article_start": 4,
+        "dependent_clause_first": 3,
+        "demonstrative": 1
+      },
+      "opening_pattern_pct": {
+        "other": 74.2,
+        "article_start": 12.9,
+        "dependent_clause_first": 9.7,
+        "demonstrative": 3.2
+      }
+    }
+  },
+  {
+    "filename": "Wireless electricalmolecular quantum signalling for cancer cell apoptosis.pdf",
+    "total_chars": 87575,
+    "sentence_structure": {
+      "mean_length": 20.28,
+      "median_length": 19.0,
+      "std_length": 13.23,
+      "cv": 0.652,
+      "min_length": 3,
+      "max_length": 71,
+      "burstiness": -0.211,
+      "pct_short_le10": 27.1,
+      "pct_medium_11_20": 27.9,
+      "pct_long_21_35": 33.8,
+      "pct_very_long_gt35": 11.2,
+      "n_sentences": 240
+    },
+    "paragraph_structure": {
+      "mean_sents_per_para": 32.88,
+      "std_sents_per_para": 17.77,
+      "cv_sents_per_para": 0.541,
+      "mean_words_per_para": 611.9,
+      "std_words_per_para": 322.7,
+      "max_consecutive_same_length": 1,
+      "para_length_distribution": {
+        "26": 1,
+        "58": 1,
+        "24": 1,
+        "46": 1,
+        "19": 1,
+        "52": 1,
+        "32": 1,
+        "6": 1
+      },
+      "n_paragraphs": 8
+    },
+    "vocabulary": {
+      "ttr": 0.2626,
+      "mattr": 0.6882,
+      "lexical_density": 0.664,
+      "total_words": 3998,
+      "unique_words": 1050,
+      "ai_tier1_words_found": {
+        "landscape": 1
+      },
+      "ai_tier2_words_found": {
+        "crucial": 1,
+        "furthermore": 2,
+        "key": 1,
+        "moreover": 1
+      },
+      "ai_tier3_pubmed_found": {
+        "across": 2,
+        "notably": 1,
+        "significantly": 3,
+        "crucial": 1,
+        "underpinned": 1,
+        "within": 2,
+        "demonstrated": 1
+      }
+    },
+    "transitions": {
+      "transition_frequency": 21.3,
+      "transitions_per_100_sentences": {
+        "exemplifying": 2.3,
+        "temporal": 3.4,
+        "additive": 2.7,
+        "contrast": 3.4,
+        "causal": 6.1,
+        "emphasis": 3.4
+      },
+      "transition_distribution": {
+        "exemplifying": 6,
+        "temporal": 9,
+        "additive": 7,
+        "contrast": 9,
+        "causal": 16,
+        "emphasis": 9
+      },
+      "top_sentence_starters": [
+        [
+          "the",
+          26
+        ],
+        [
+          "we",
+          13
+        ],
+        [
+          "this",
+          10
+        ],
+        [
+          "a",
+          10
+        ],
+        [
+          "to",
+          8
+        ],
+        [
+          "these",
+          5
+        ],
+        [
+          "importantly",
+          5
+        ],
+        [
+          "therefore",
+          4
+        ],
+        [
+          "gnp100@r.cyt",
+          4
+        ],
+        [
+          "gin",
+          3
+        ],
+        [
+          "gold",
+          2
+        ],
+        [
+          "for",
+          2
+        ],
+        [
+          "2d",
+          2
+        ],
+        [
+          "furthermore",
+          2
+        ],
+        [
+          "however",
+          2
+        ],
+        [
+          "b",
+          2
+        ],
+        [
+          "c",
+          2
+        ],
+        [
+          "d",
+          2
+        ],
+        [
+          "e",
+          2
+        ],
+        [
+          "by",
+          2
+        ],
+        [
+          "further",
+          2
+        ],
+        [
+          "of",
+          2
+        ],
+        [
+          "statistical",
+          2
+        ],
+        [
+          "cells",
+          2
+        ],
+        [
+          "scale",
+          2
+        ],
+        [
+          "1",
+          2
+        ],
+        [
+          "collectively",
+          2
+        ],
+        [
+          "thus",
+          2
+        ],
+        [
+          "nature",
+          1
+        ],
+        [
+          "understanding",
+          1
+        ]
+      ],
+      "transition_examples": {
+        "exemplifying": [
+          "nature nanotechnology\nWireless electrical\u2013molecular quantum\nsignalling for cancer cell apoptosis\n1, ",
+          "These electron transfer processes in biology, when governed by quantum mechanical effects such as el",
+          "This highlights the need for technology to electrically interact with\nredox molecules such as Cyt c "
+        ],
+        "temporal": [
+          "For\ninstance, one of the most well-known electron transfer pathways is\nphotosynthesis, the mechanism",
+          "Design of bio-nanoantennae for actuating cell\nTo electrically communicate with cells at a level equi",
+          "To explore the potential of bio-nanoantennae on the\na.c.-EF-mediated redox switching of Cyt c, first"
+        ],
+        "additive": [
+          "These redox processes in Cyt c are also\nReceived: 26 March 2023\nAccepted: 1 August 2023\nPublished on",
+          "Human-derived cortical astrocytes were also included as a control\nfor non-tumorigenic cells.",
+          "Furthermore, these processes are crucial for the translocation\nof Cyt c to the cytosol11 and for mod"
+        ],
+        "contrast": [
+          "Design of bio-nanoantennae for actuating cell\nTo electrically communicate with cells at a level equi",
+          "Although quantum biology is still in its infancy, we envisage future\ninterdisciplinary developments,",
+          "Although quantum biology is still in its infancy, we envisage future\ninterdisciplinary developments,"
+        ],
+        "causal": [
+          "Therefore, we conjugated\nGNP100 with an electrical donor, that is, r.Cyt c (inactive, Fe2+), and\na r",
+          "We, therefore, designed\nan approach that uses bifunctionalized bipolar nanoelectrodes with\nattached ",
+          "Therefore,\nwe hypo\u00adthesized that these bio-nanoantennae in combination with\napplied a.c. EFs could b"
+        ],
+        "emphasis": [
+          "Importantly, most recently,\nbipolar electrodes in series lead to a dramatic drop in cell impedance23",
+          "Furthermore, alternating\ncurrent (a.c.) EFs are reported to notably lower the impedance of the\ncell ",
+          "Importantly, the observed\ndecrease in metabolic activity of GNP100@r.Cyt c@Z-treated cells\nwas signi"
+        ]
+      }
+    },
+    "voice_and_person": {
+      "passive_voice_pct": 24.9,
+      "active_voice_pct": 75.1,
+      "first_person_we_pct": 13.4,
+      "first_person_i_pct": 0.8
+    },
+    "copula_patterns": {
+      "simple_copulas": 129,
+      "copula_substitutes": 5,
+      "substitute_ratio_pct": 3.73
+    },
+    "readability": {
+      "flesch_reading_ease": 35.69293182359627,
+      "flesch_kincaid_grade": 11.64676607627181,
+      "gunning_fog": 15.181011765137079,
+      "smog_index": 13.660294331081218,
+      "coleman_liau": 14.079851973684207,
+      "ari": 12.686428417377748
+    },
+    "punctuation": {
+      "em_dashes_per_1000_words": 0.0,
+      "en_dashes_per_1000_words": 13.28,
+      "semicolons_per_sentence": 0.126,
+      "colons_per_sentence": 0.027,
+      "commas_per_sentence": 1.16,
+      "em_dash_count": 0,
+      "en_dash_count": 65
+    },
+    "information_density": {
+      "mean_info_density": 0.1294,
+      "std_info_density": 0.0702,
+      "cv_info_density": 0.543,
+      "min_info_density": 0.0207,
+      "max_info_density": 0.2327
+    },
+    "sentence_openings": {
+      "opening_pattern_counts": {
+        "other": 186,
+        "meta_discourse": 1,
+        "first_person": 13,
+        "article_start": 38,
+        "demonstrative": 15,
+        "transition_word": 5,
+        "dependent_clause_first": 3,
+        "expletive": 2
+      },
+      "opening_pattern_pct": {
+        "other": 70.7,
+        "meta_discourse": 0.4,
+        "first_person": 4.9,
+        "article_start": 14.4,
+        "demonstrative": 5.7,
+        "transition_word": 1.9,
+        "dependent_clause_first": 1.1,
+        "expletive": 0.8
+      }
+    }
+  },
+  {
+    "filename": "Oxyhaemoglobin saturation NIR-IIb imaging for assessing cancer metabolism and predicting the response to immunotherapy.pdf",
+    "total_chars": 66444,
+    "sentence_structure": {
+      "mean_length": 22.68,
+      "median_length": 22,
+      "std_length": 12.22,
+      "cv": 0.539,
+      "min_length": 3,
+      "max_length": 74,
+      "burstiness": -0.3,
+      "pct_short_le10": 17.8,
+      "pct_medium_11_20": 27.2,
+      "pct_long_21_35": 43.2,
+      "pct_very_long_gt35": 11.8,
+      "n_sentences": 169
+    },
+    "paragraph_structure": {
+      "mean_sents_per_para": 32.33,
+      "std_sents_per_para": 18.7,
+      "cv_sents_per_para": 0.578,
+      "mean_words_per_para": 643,
+      "std_words_per_para": 369.5,
+      "max_consecutive_same_length": 1,
+      "para_length_distribution": {
+        "19": 1,
+        "54": 1,
+        "42": 1,
+        "36": 1,
+        "41": 1,
+        "2": 1
+      },
+      "n_paragraphs": 6
+    },
+    "vocabulary": {
+      "ttr": 0.262,
+      "mattr": 0.6827,
+      "lexical_density": 0.654,
+      "total_words": 3202,
+      "unique_words": 839,
+      "ai_tier1_words_found": {
+        "landscape": 2
+      },
+      "ai_tier2_words_found": {
+        "key": 1
+      },
+      "ai_tier3_pubmed_found": {
+        "within": 8,
+        "demonstrated": 5,
+        "insights": 2
+      }
+    },
+    "transitions": {
+      "transition_frequency": 32.0,
+      "transitions_per_100_sentences": {
+        "additive": 8.2,
+        "contrast": 11.9,
+        "causal": 3.1,
+        "emphasis": 0.5,
+        "temporal": 5.2,
+        "exemplifying": 3.1
+      },
+      "transition_distribution": {
+        "additive": 16,
+        "contrast": 23,
+        "causal": 6,
+        "emphasis": 1,
+        "temporal": 10,
+        "exemplifying": 6
+      },
+      "top_sentence_starters": [
+        [
+          "the",
+          24
+        ],
+        [
+          "a",
+          9
+        ],
+        [
+          "in",
+          8
+        ],
+        [
+          "to",
+          5
+        ],
+        [
+          "two-plex",
+          4
+        ],
+        [
+          "however",
+          4
+        ],
+        [
+          "here",
+          3
+        ],
+        [
+          "these",
+          3
+        ],
+        [
+          "thus",
+          3
+        ],
+        [
+          "next",
+          3
+        ],
+        [
+          "as",
+          3
+        ],
+        [
+          "from",
+          3
+        ],
+        [
+          "we",
+          2
+        ],
+        [
+          "an",
+          2
+        ],
+        [
+          "17)",
+          2
+        ],
+        [
+          "principal-component",
+          2
+        ],
+        [
+          "balb/c",
+          2
+        ],
+        [
+          "3a).",
+          2
+        ],
+        [
+          "at",
+          2
+        ],
+        [
+          "b",
+          2
+        ],
+        [
+          "c",
+          2
+        ],
+        [
+          "d",
+          2
+        ],
+        [
+          "5",
+          2
+        ],
+        [
+          "4g).",
+          2
+        ],
+        [
+          "nature",
+          1
+        ],
+        [
+          "real-time",
+          1
+        ],
+        [
+          "utilizing",
+          1
+        ],
+        [
+          "emerging",
+          1
+        ],
+        [
+          "indeed",
+          1
+        ],
+        [
+          "2university",
+          1
+        ]
+      ],
+      "transition_examples": {
+        "additive": [
+          "We also find that a positive\ntherapeutic response to the checkpoint blockade cancer immunotherapy\nco",
+          "These\ndistinct metabolic programmes and altered metabolite levels in the\ntumour microenvironment aff",
+          "The generated empirical calibration formula can be used to calculate the sO2\nfrom the ratio650:980 a"
+        ],
+        "contrast": [
+          "Emerging studies have highlighted the heterogeneous metabolic landscapes of different tumours, but t",
+          "Emerging studies have highlighted the heterogeneous metabolic landscapes of different tumours, but t",
+          "These\ndistinct metabolic programmes and altered metabolite levels in the\ntumour microenvironment aff"
+        ],
+        "causal": [
+          "Thus, in vivo\nquantitative assessment of metabolic fluxes and changes in tumours\nhas important impli",
+          "In\nthe case of arterial blood, which contained a high percentage of HbO2,\nthe 650\u2009nm excitation affo",
+          "In vivo dynamic sO2 imaging of mouse cerebral\nThe 1,550\u2009nm luminescence of pEr is ideal for deep-tis"
+        ],
+        "emphasis": [
+          "Indeed, blood vessels, which are an important component of the tumour metabolic microenvironment, ar"
+        ],
+        "temporal": [
+          "3Department\nof General Surgery, the First Medical Center of Chinese PLA General Hospital, Beijing, C",
+          "Next, we performed phantom imaging of the pEr nanoprobe dispersed\nin phosphate buffer saline (PBS), ",
+          "We then used this non-invasive real-time dynamic angiography\nto quantify and map out the sO2 landsca"
+        ],
+        "exemplifying": [
+          "17), and possessing versatile functionalities\nsuch as multiplexed imaging and haemodynamic analysis.",
+          "In particular, imaging at the long-wavelength band of the NIR-II region\nbetween 1,500 and 1,700\u2009nm (",
+          "In particular, the extinction coefficient of HbO2 is relatively\nlower between 600 and 800\u2009nm and hig"
+        ]
+      }
+    },
+    "voice_and_person": {
+      "passive_voice_pct": 19.3,
+      "active_voice_pct": 80.7,
+      "first_person_we_pct": 9.9,
+      "first_person_i_pct": 0.0
+    },
+    "copula_patterns": {
+      "simple_copulas": 87,
+      "copula_substitutes": 0,
+      "substitute_ratio_pct": 0.0
+    },
+    "readability": {
+      "flesch_reading_ease": 30.027531936491414,
+      "flesch_kincaid_grade": 13.84338880791255,
+      "gunning_fog": 16.887539823008847,
+      "smog_index": 15.35491091789007,
+      "coleman_liau": 14.778032274856844,
+      "ari": 15.461990668740277
+    },
+    "punctuation": {
+      "em_dashes_per_1000_words": 0.0,
+      "en_dashes_per_1000_words": 4.92,
+      "semicolons_per_sentence": 0.073,
+      "colons_per_sentence": 0.151,
+      "commas_per_sentence": 1.23,
+      "em_dash_count": 0,
+      "en_dash_count": 19
+    },
+    "information_density": {
+      "mean_info_density": 0.1148,
+      "std_info_density": 0.0283,
+      "cv_info_density": 0.247,
+      "min_info_density": 0.0756,
+      "max_info_density": 0.1482
+    },
+    "sentence_openings": {
+      "opening_pattern_counts": {
+        "other": 139,
+        "meta_discourse": 4,
+        "article_start": 35,
+        "first_person": 2,
+        "demonstrative": 3,
+        "dependent_clause_first": 5,
+        "transition_word": 6
+      },
+      "opening_pattern_pct": {
+        "other": 71.6,
+        "meta_discourse": 2.1,
+        "article_start": 18.0,
+        "first_person": 1.0,
+        "demonstrative": 1.5,
+        "dependent_clause_first": 2.6,
+        "transition_word": 3.1
+      }
+    }
+  },
+  {
+    "filename": "Entry and exit of extracellular vesicles to and from the blood circulation.pdf",
+    "total_chars": 46021,
+    "sentence_structure": {
+      "mean_length": 23.77,
+      "median_length": 23.0,
+      "std_length": 8.57,
+      "cv": 0.361,
+      "min_length": 9,
+      "max_length": 50,
+      "burstiness": -0.47,
+      "pct_short_le10": 1.9,
+      "pct_medium_11_20": 37.2,
+      "pct_long_21_35": 51.9,
+      "pct_very_long_gt35": 9.0,
+      "n_sentences": 156
+    },
+    "paragraph_structure": {
+      "mean_sents_per_para": 28.17,
+      "std_sents_per_para": 13.41,
+      "cv_sents_per_para": 0.476,
+      "mean_words_per_para": 620.3,
+      "std_words_per_para": 273.5,
+      "max_consecutive_same_length": 1,
+      "para_length_distribution": {
+        "27": 1,
+        "17": 1,
+        "30": 1,
+        "26": 1,
+        "53": 1,
+        "16": 1
+      },
+      "n_paragraphs": 6
+    },
+    "vocabulary": {
+      "ttr": 0.252,
+      "mattr": 0.6996,
+      "lexical_density": 0.663,
+      "total_words": 3432,
+      "unique_words": 865,
+      "ai_tier1_words_found": {
+        "pivotal": 1
+      },
+      "ai_tier2_words_found": {
+        "paradigm": 1,
+        "comprehensive": 1,
+        "enhance": 1,
+        "valuable": 1,
+        "highlight": 1
+      },
+      "ai_tier3_pubmed_found": {
+        "across": 16,
+        "comprehensive": 1,
+        "notably": 3,
+        "within": 5,
+        "demonstrated": 6
+      }
+    },
+    "transitions": {
+      "transition_frequency": 59.8,
+      "transitions_per_100_sentences": {
+        "contrast": 17.8,
+        "additive": 13.0,
+        "causal": 9.5,
+        "exemplifying": 15.4,
+        "temporal": 1.8,
+        "emphasis": 2.4
+      },
+      "transition_distribution": {
+        "contrast": 30,
+        "additive": 22,
+        "causal": 16,
+        "exemplifying": 26,
+        "temporal": 3,
+        "emphasis": 4
+      },
+      "top_sentence_starters": [
+        [
+          "in",
+          15
+        ],
+        [
+          "the",
+          10
+        ],
+        [
+          "it",
+          10
+        ],
+        [
+          "extracellular",
+          9
+        ],
+        [
+          "for",
+          8
+        ],
+        [
+          "however",
+          7
+        ],
+        [
+          "this",
+          7
+        ],
+        [
+          "1b).",
+          5
+        ],
+        [
+          "therefore",
+          5
+        ],
+        [
+          "taken",
+          4
+        ],
+        [
+          "an",
+          3
+        ],
+        [
+          "similar",
+          3
+        ],
+        [
+          "notably",
+          3
+        ],
+        [
+          "similarly",
+          2
+        ],
+        [
+          "accordingly",
+          2
+        ],
+        [
+          "by",
+          2
+        ],
+        [
+          "transport",
+          2
+        ],
+        [
+          "b",
+          2
+        ],
+        [
+          "exocytosis-independent",
+          2
+        ],
+        [
+          "these",
+          2
+        ],
+        [
+          "several",
+          2
+        ],
+        [
+          "studies",
+          2
+        ],
+        [
+          "lymphatic",
+          2
+        ],
+        [
+          "a",
+          2
+        ],
+        [
+          "consequently",
+          2
+        ],
+        [
+          "heparan",
+          2
+        ],
+        [
+          "adsorptive-mediated",
+          2
+        ],
+        [
+          "nature",
+          1
+        ],
+        [
+          "short-distance",
+          1
+        ],
+        [
+          "here",
+          1
+        ]
+      ],
+      "transition_examples": {
+        "contrast": [
+          "Short-distance communication takes place in the\ninterstitium, whereas long-distance communication is",
+          "Short-distance communication takes place in the\ninterstitium, whereas long-distance communication is",
+          "However, the mechanisms by which EVs enter and exit the circulation\nare poorly understood."
+        ],
+        "additive": [
+          "Similarly, it has been demonstrated that\nsystemically administered EVs can reach specific organs2,3,",
+          "It is also common for various subtypes of\nendothelia to be present in the same organ.",
+          "It is also important to note\nthat the central paradigm of paracellular transport being responsible\nf"
+        ],
+        "causal": [
+          "Accordingly, it could be argued that EV transport phenomena\nare the most critical component of a des",
+          "This phenomenon has been\nexploited in the field of nanomedicine, where one of the main targeting\nmec",
+          "ratios in animal models and patients, which affects the vasculature\nmorphology and function, consequ"
+        ],
+        "exemplifying": [
+          "By contrast, organs such as the liver and spleen have\na discontinuous endothelial lining, which allo",
+          "For example, the kidneys\ncontain several endothelial cell types that possess distinct structures\nand",
+          "Paracellular transport of extracellular vesicles\nTransport across discontinuous endothelium\nWith pat"
+        ],
+        "temporal": [
+          "Finally, cell protrusions can potentially be exploited as an alternative\nroute for EV transport acro",
+          "Extracellular vesicles may exit the interstitium through\nfluid-pressure-sensitive junctions (flap va",
+          "For example, a systematic review of biodistribution studies demonstrated that an elevated\ndeposition"
+        ],
+        "emphasis": [
+          "In fact,\nlymphatic transport represents an alternative pathway for eventual\nentry into the blood cir",
+          "Notably, lipoproteins are six orders of magnitude more abundant in the blood than EVs67,\nsuggesting ",
+          "Notably, a recent study has indicated that EVs and lipoproteins\ncan form complexes that remain intac"
+        ]
+      }
+    },
+    "voice_and_person": {
+      "passive_voice_pct": 19.0,
+      "active_voice_pct": 81.0,
+      "first_person_we_pct": 0.0,
+      "first_person_i_pct": 0.0
+    },
+    "copula_patterns": {
+      "simple_copulas": 117,
+      "copula_substitutes": 1,
+      "substitute_ratio_pct": 0.85
+    },
+    "readability": {
+      "flesch_reading_ease": 11.389317753496272,
+      "flesch_kincaid_grade": 17.521379461081306,
+      "gunning_fog": 21.083784473344924,
+      "smog_index": 18.372879339268323,
+      "coleman_liau": 19.356409567320615,
+      "ari": 20.708492167679005
+    },
+    "punctuation": {
+      "em_dashes_per_1000_words": 0.27,
+      "en_dashes_per_1000_words": 5.37,
+      "semicolons_per_sentence": 0.03,
+      "colons_per_sentence": 0.042,
+      "commas_per_sentence": 1.32,
+      "em_dash_count": 1,
+      "en_dash_count": 20
+    },
+    "information_density": {
+      "mean_info_density": 0.0421,
+      "std_info_density": 0.022,
+      "cv_info_density": 0.522,
+      "min_info_density": 0.0166,
+      "max_info_density": 0.0792
+    },
+    "sentence_openings": {
+      "opening_pattern_counts": {
+        "other": 122,
+        "transition_word": 9,
+        "meta_discourse": 1,
+        "article_start": 15,
+        "demonstrative": 10,
+        "expletive": 10,
+        "dependent_clause_first": 2
+      },
+      "opening_pattern_pct": {
+        "other": 72.2,
+        "transition_word": 5.3,
+        "meta_discourse": 0.6,
+        "article_start": 8.9,
+        "demonstrative": 5.9,
+        "expletive": 5.9,
+        "dependent_clause_first": 1.2
+      }
+    }
+  },
+  {
+    "filename": "High optical nonlinear efficiency achieved by compensating for nanoscale inhomogeneity.pdf",
+    "total_chars": 10234,
+    "sentence_structure": {
+      "mean_length": 21.09,
+      "median_length": 19,
+      "std_length": 8.62,
+      "cv": 0.409,
+      "min_length": 8,
+      "max_length": 42,
+      "burstiness": -0.42,
+      "pct_short_le10": 8.6,
+      "pct_medium_11_20": 42.9,
+      "pct_long_21_35": 42.9,
+      "pct_very_long_gt35": 5.7,
+      "n_sentences": 35
+    },
+    "paragraph_structure": {
+      "mean_sents_per_para": 37,
+      "std_sents_per_para": 0,
+      "cv_sents_per_para": 0,
+      "mean_words_per_para": 740,
+      "std_words_per_para": 0,
+      "max_consecutive_same_length": 1,
+      "para_length_distribution": {
+        "37": 1
+      },
+      "n_paragraphs": 1
+    },
+    "vocabulary": {
+      "ttr": 0.4282,
+      "mattr": 0.6947,
+      "lexical_density": 0.688,
+      "total_words": 689,
+      "unique_words": 295,
+      "ai_tier1_words_found": {
+        "landscape": 1
+      },
+      "ai_tier2_words_found": {
+        "moreover": 2
+      },
+      "ai_tier3_pubmed_found": {
+        "across": 1,
+        "demonstrated": 2
+      }
+    },
+    "transitions": {
+      "transition_frequency": 59.5,
+      "transitions_per_100_sentences": {
+        "temporal": 13.5,
+        "additive": 10.8,
+        "contrast": 24.3,
+        "concessive": 2.7,
+        "causal": 5.4,
+        "exemplifying": 2.7
+      },
+      "transition_distribution": {
+        "temporal": 5,
+        "additive": 4,
+        "contrast": 9,
+        "concessive": 1,
+        "causal": 2,
+        "exemplifying": 1
+      },
+      "top_sentence_starters": [
+        [
+          "the",
+          6
+        ],
+        [
+          "using",
+          2
+        ],
+        [
+          "however",
+          2
+        ],
+        [
+          "to",
+          2
+        ],
+        [
+          "we",
+          2
+        ],
+        [
+          "for",
+          2
+        ],
+        [
+          "1b).",
+          2
+        ],
+        [
+          "research",
+          1
+        ],
+        [
+          "optical",
+          1
+        ],
+        [
+          "periodic",
+          1
+        ],
+        [
+          "with",
+          1
+        ],
+        [
+          "when",
+          1
+        ],
+        [
+          "1a):",
+          1
+        ],
+        [
+          "before",
+          1
+        ],
+        [
+          "our",
+          1
+        ],
+        [
+          "future",
+          1
+        ],
+        [
+          "potential",
+          1
+        ],
+        [
+          "moreover",
+          1
+        ],
+        [
+          "therefore",
+          1
+        ],
+        [
+          "although",
+          1
+        ],
+        [
+          "then",
+          1
+        ],
+        [
+          "pao-kang",
+          1
+        ],
+        [
+          "this",
+          1
+        ],
+        [
+          "adapted",
+          1
+        ],
+        [
+          "publisher\u2019s",
+          1
+        ],
+        [
+          "published",
+          1
+        ]
+      ],
+      "transition_examples": {
+        "temporal": [
+          "Optical frequency mixing through\nsecond-order nonlinear processes is\nwidely used in optical sources,",
+          "Periodic poling \u2014 meaning that the inversion\nof the ferroelectric domain across the material has a f",
+          "With ideal phase matching, second-order\nnonlinear processes in waveguides have a\nsinc-squared nonlin"
+        ],
+        "additive": [
+          "However, TFLN waveguides should also\nachieve high nonlinear efficiency, determined by both the nonli",
+          "However,\nin TFLN waveguides with periodic poling the\nnonlinear spectrum is seen to deviate markedly ",
+          "For comparison, we also fabricated TFLN\nwaveguides using the standard periodic\npoling approach."
+        ],
+        "contrast": [
+          "However, TFLN waveguides should also\nachieve high nonlinear efficiency, determined by both the nonli",
+          "However, TFLN waveguides should also\nachieve high nonlinear efficiency, determined by both the nonli",
+          "However,\nin TFLN waveguides with periodic poling the\nnonlinear spectrum is seen to deviate markedly "
+        ],
+        "concessive": [
+          "However, TFLN waveguides should also\nachieve high nonlinear efficiency, determined by both the nonli"
+        ],
+        "causal": [
+          "The period change is designed to compensate the phase mismatch\ninduced by thickness variation, conse",
+          "Therefore, wafer-scale patterning\nof poling electrodes using standard photomasks for photolithograph"
+        ],
+        "exemplifying": [
+          "For example,\nthickness information could be used to design the dispersion engineering or precisely\nc"
+        ]
+      }
+    },
+    "voice_and_person": {
+      "passive_voice_pct": 18.9,
+      "active_voice_pct": 81.1,
+      "first_person_we_pct": 21.6,
+      "first_person_i_pct": 0.0
+    },
+    "copula_patterns": {
+      "simple_copulas": 22,
+      "copula_substitutes": 0,
+      "substitute_ratio_pct": 0.0
+    },
+    "readability": {
+      "flesch_reading_ease": 20.3830599455041,
+      "flesch_kincaid_grade": 15.626186843129624,
+      "gunning_fog": 18.52481121058778,
+      "smog_index": 16.509266815103615,
+      "coleman_liau": 17.612261580381467,
+      "ari": 17.926741312741314
+    },
+    "punctuation": {
+      "em_dashes_per_1000_words": 6.76,
+      "en_dashes_per_1000_words": 0.0,
+      "semicolons_per_sentence": 0.0,
+      "colons_per_sentence": 0.108,
+      "commas_per_sentence": 1.08,
+      "em_dash_count": 5,
+      "en_dash_count": 0
+    },
+    "information_density": {
+      "mean_info_density": 0.0446,
+      "std_info_density": 0,
+      "cv_info_density": 0,
+      "min_info_density": 0.0446,
+      "max_info_density": 0.0446
+    },
+    "sentence_openings": {
+      "opening_pattern_counts": {
+        "other": 21,
+        "article_start": 6,
+        "transition_word": 3,
+        "dependent_clause_first": 3,
+        "first_person": 3,
+        "demonstrative": 1
+      },
+      "opening_pattern_pct": {
+        "other": 56.8,
+        "article_start": 16.2,
+        "transition_word": 8.1,
+        "dependent_clause_first": 8.1,
+        "first_person": 8.1,
+        "demonstrative": 2.7
+      }
+    }
+  },
+  {
+    "filename": "Universal label-free single-molecule visualization of DNA origami nanodevices across biological samples using origamiFISH.pdf",
+    "total_chars": 89283,
+    "sentence_structure": {
+      "mean_length": 19.95,
+      "median_length": 18,
+      "std_length": 12.51,
+      "cv": 0.627,
+      "min_length": 3,
+      "max_length": 114,
+      "burstiness": -0.229,
+      "pct_short_le10": 19.5,
+      "pct_medium_11_20": 40.8,
+      "pct_long_21_35": 30.0,
+      "pct_very_long_gt35": 9.8,
+      "n_sentences": 287
+    },
+    "paragraph_structure": {
+      "mean_sents_per_para": 34.3,
+      "std_sents_per_para": 24.81,
+      "cv_sents_per_para": 0.723,
+      "mean_words_per_para": 578.8,
+      "std_words_per_para": 380.6,
+      "max_consecutive_same_length": 1,
+      "para_length_distribution": {
+        "24": 2,
+        "18": 1,
+        "83": 1,
+        "3": 1,
+        "70": 1,
+        "15": 1,
+        "30": 1,
+        "35": 1,
+        "41": 1
+      },
+      "n_paragraphs": 10
+    },
+    "vocabulary": {
+      "ttr": 0.2257,
+      "mattr": 0.6738,
+      "lexical_density": 0.68,
+      "total_words": 4967,
+      "unique_words": 1121,
+      "ai_tier1_words_found": {},
+      "ai_tier2_words_found": {
+        "additionally": 15,
+        "key": 1,
+        "robust": 3,
+        "highlight": 1
+      },
+      "ai_tier3_pubmed_found": {
+        "additionally": 15,
+        "across": 20,
+        "significantly": 5,
+        "particularly": 2,
+        "within": 31,
+        "demonstrated": 3,
+        "insights": 1
+      }
+    },
+    "transitions": {
+      "transition_frequency": 37.9,
+      "transitions_per_100_sentences": {
+        "temporal": 7.6,
+        "contrast": 13.4,
+        "exemplifying": 3.2,
+        "additive": 6.7,
+        "causal": 3.8,
+        "emphasis": 2.3,
+        "concessive": 0.9
+      },
+      "transition_distribution": {
+        "temporal": 26,
+        "contrast": 46,
+        "exemplifying": 11,
+        "additive": 23,
+        "causal": 13,
+        "emphasis": 8,
+        "concessive": 3
+      },
+      "top_sentence_starters": [
+        [
+          "we",
+          38
+        ],
+        [
+          "the",
+          35
+        ],
+        [
+          "to",
+          12
+        ],
+        [
+          "together",
+          7
+        ],
+        [
+          "scale",
+          7
+        ],
+        [
+          "however",
+          6
+        ],
+        [
+          "origamifish",
+          6
+        ],
+        [
+          "b",
+          6
+        ],
+        [
+          "d",
+          6
+        ],
+        [
+          "additionally",
+          6
+        ],
+        [
+          "in",
+          5
+        ],
+        [
+          "c",
+          5
+        ],
+        [
+          "e",
+          5
+        ],
+        [
+          "here",
+          4
+        ],
+        [
+          "dn",
+          4
+        ],
+        [
+          "dns",
+          3
+        ],
+        [
+          "f",
+          3
+        ],
+        [
+          "g",
+          3
+        ],
+        [
+          "following",
+          3
+        ],
+        [
+          "although",
+          3
+        ],
+        [
+          "a",
+          3
+        ],
+        [
+          "finally",
+          3
+        ],
+        [
+          "6g",
+          3
+        ],
+        [
+          "1).",
+          2
+        ],
+        [
+          "by",
+          2
+        ],
+        [
+          "2a).",
+          2
+        ],
+        [
+          "4a).",
+          2
+        ],
+        [
+          "this",
+          2
+        ],
+        [
+          "4d).",
+          2
+        ],
+        [
+          "top:",
+          2
+        ]
+      ],
+      "transition_examples": {
+        "temporal": [
+          "nature nanotechnology\nUniversal, label-free, single-molecule\nvisualization of DNA origami nanodevice",
+          "The origamiFISH probes were subsequently applied overnight to allow binding to\nthe universal M13mp18",
+          "We first implemented origamiFISH in RAW264.7 macrophages,\na widely utilized cell line within the DNA"
+        ],
+        "contrast": [
+          "However, the role\nof DN design during cellular interactions and subsequent biodistribution\nremain po",
+          "However, the role\nof DN design during cellular interactions and subsequent biodistribution\nremain po",
+          "We identify cell-type- and DN shape-specific\nspatiotemporal distribution patterns within a minute of"
+        ],
+        "exemplifying": [
+          "Current methods for tracking DN fates\nin situ, including fluorescent-dye labelling, suffer from low ",
+          "Combining compatibility for\nmacromolecule decorations with nanometre-scale precision of spatial\narra",
+          "Many of these\nuses require controlling the cell uptake or subcellular localization of\nDNs, such as c"
+        ],
+        "additive": [
+          "We\nadditionally optimize compatibility w\u00adit\u00adh i\u00admm\u00adunofluorescence and tissue\nclearing to visualize ",
+          "Additionally, by incorporating an in situ amplification step through\nhybridization chain reaction (H",
+          "We therefore proceeded with the\nsplit-initiator origamiFISH probe set for the remainder of this stud"
+        ],
+        "causal": [
+          "However, the dye labelling of DNs is challenging because of a\nnumber of practical and design conside",
+          "Through the targeted\nimaging of conserved regions of the M13mp18 bacteriophage-based\nscaffold sequen",
+          "We therefore proceeded with the\nsplit-initiator origamiFISH probe set for the remainder of this stud"
+        ],
+        "emphasis": [
+          "However, origamiFISH detected significantly more DN spots per cell\ncompared with Cy3, across all the",
+          "This is particularly striking at lower\nuptake concentrations, where origamiFISH detected a mean of 9",
+          "The split-initiator probes display significantly diminished background\nstaining in negative no-DN co"
+        ],
+        "concessive": [
+          "We found a similar loss of co-localization\nbetween origamiFISH and staple-initiated origamiFISH, des",
+          "Together, these results suggest that under dilute uptake conditions,\neither DN degradation or staple",
+          "One study that visualized DN distribution over four days\nfound negligible uptake 5\u2009min post-DN intro"
+        ]
+      }
+    },
+    "voice_and_person": {
+      "passive_voice_pct": 10.9,
+      "active_voice_pct": 89.1,
+      "first_person_we_pct": 23.3,
+      "first_person_i_pct": 0.0
+    },
+    "copula_patterns": {
+      "simple_copulas": 109,
+      "copula_substitutes": 5,
+      "substitute_ratio_pct": 4.39
+    },
+    "readability": {
+      "flesch_reading_ease": 30.28581964211969,
+      "flesch_kincaid_grade": 13.42751203790824,
+      "gunning_fog": 16.905841631791144,
+      "smog_index": 15.305353046464404,
+      "coleman_liau": 15.629354614850797,
+      "ari": 15.491465227400887
+    },
+    "punctuation": {
+      "em_dashes_per_1000_words": 0.0,
+      "en_dashes_per_1000_words": 4.66,
+      "semicolons_per_sentence": 0.047,
+      "colons_per_sentence": 0.035,
+      "commas_per_sentence": 1.17,
+      "em_dash_count": 0,
+      "en_dash_count": 27
+    },
+    "information_density": {
+      "mean_info_density": 0.1099,
+      "std_info_density": 0.025,
+      "cv_info_density": 0.228,
+      "min_info_density": 0.085,
+      "max_info_density": 0.1653
+    },
+    "sentence_openings": {
+      "opening_pattern_counts": {
+        "other": 238,
+        "transition_word": 13,
+        "meta_discourse": 4,
+        "first_person": 38,
+        "article_start": 38,
+        "dependent_clause_first": 7,
+        "expletive": 1,
+        "demonstrative": 4
+      },
+      "opening_pattern_pct": {
+        "other": 69.4,
+        "transition_word": 3.8,
+        "meta_discourse": 1.2,
+        "first_person": 11.1,
+        "article_start": 11.1,
+        "dependent_clause_first": 2.0,
+        "expletive": 0.3,
+        "demonstrative": 1.2
+      }
+    }
+  }
+]

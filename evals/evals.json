@@ -1,0 +1,53 @@
+{
+  "skill_name": "humanizer-3.0.0",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Humanize this text: 'In the realm of nanomedicine, lipid nanoparticles have emerged as a groundbreaking cornerstone for mRNA delivery. It is important to note that these revolutionary systems leverage the power of ionizable lipids to foster enhanced endosomal escape.'",
+      "expected_output": "Should detect Scientific Mode. Remove AI watermarks (realm, groundbreaking, cornerstone, leverage, foster, it is important to note). Replace with natural academic prose maintaining scientific accuracy. Report quantitative metrics.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Humanize: 'This study delves into the intricate tapestry of drug-protein interactions, unleashing novel insights that unlock the potential of targeted delivery systems.'",
+      "expected_output": "Should detect Scientific Mode. Flag Tier 1 words: delve, intricate tapestry, unlock. Flag Tier 3/PubMed excess: novel, insights. Rewrite with precise, measured academic language. Report 0 Tier 1 words remaining.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Humanize this 500-word grant introduction about computational fluid dynamics for nanoparticle transport prediction",
+      "expected_output": "Should detect Grant Mode. Use multi-agent scanning (4 parallel agents for 35 patterns). Flag generic importance claims (#29), textbook methodology (#30). Rewrite with specific impact metrics and experimental details. Final anti-AI audit confirming zero AI watermarks. Report sentence length CV > 0.40.",
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "Humanize this methods section: 'Lipid nanoparticles were prepared using microfluidic mixing. The formulation was optimized using design of experiments methodology. Particle characterization was performed using dynamic light scattering and cryo-electron microscopy. The results demonstrated enhanced cellular uptake, highlighting the potential of this innovative approach for mRNA delivery applications.'",
+      "expected_output": "Should detect Scientific Mode. Flag textbook methodology (#30): add specific equipment models, reagent concentrations, flow rates, buffer conditions. Flag self-paraphrasing (#26) if present. Flag PubMed excess vocabulary: 'demonstrated', 'enhanced', 'highlighting', 'innovative', 'potential'. Convert passive to active voice per Nature style. Report copula ratio.",
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "Humanize this grant significance section: 'This research addresses a critical gap in our understanding of nanoparticle-cell interactions. The proposed study aims to leverage cutting-edge computational approaches to unlock novel insights into lipid nanoparticle biodistribution. This innovative work will contribute to the broader understanding of nanomedicine, with significant implications for the field. The outcomes will advance our knowledge and pave the way for future therapeutic applications.'",
+      "expected_output": "Should detect Grant Mode. Flag generic importance claims (#29): 'critical gap', 'broader understanding', 'significant implications', 'advance our knowledge', 'pave the way'. Flag AI vocabulary: leverage, cutting-edge, novel, insights, innovative. Flag generic conclusion (#24). Rewrite with quantified impact, specific problems, concrete deliverables. Sentence length CV > 0.40.",
+      "files": []
+    },
+    {
+      "id": 6,
+      "prompt": "Humanize: 'The nanoparticles exhibited remarkable stability. The formulated particles demonstrated excellent colloidal stability. The prepared nanocarriers showed outstanding storage stability over the study period.'",
+      "expected_output": "Should detect Scientific Mode. Flag self-paraphrasing (#26): three sentences saying the same thing. Flag PubMed excess: 'exhibited', 'demonstrated'. Flag promotional language (#4): 'remarkable', 'excellent', 'outstanding'. Consolidate into one sentence with specific data (e.g., PDI values, zeta potential, timeframe).",
+      "files": []
+    },
+    {
+      "id": 7,
+      "prompt": "Humanize this paragraph checking for sentence uniformity: 'The particles were characterized by DLS measurements. The average diameter was found to be 85 nanometers. The polydispersity index indicated a narrow distribution. The zeta potential was measured at negative 12 millivolts. The encapsulation efficiency was determined to be 92 percent.'",
+      "expected_output": "Should flag sentence length uniformity (#25): all sentences are ~8-10 words, CV near 0. Should vary sentence length dramatically: combine some sentences, make others longer with context, keep one short. Target CV > 0.40. Also flag passive voice per Nature style.",
+      "files": []
+    },
+    {
+      "id": 8,
+      "prompt": "Humanize a 2000-word NIH R01 research plan section on machine-learning-guided nanoparticle formulation optimization for targeted drug delivery",
+      "expected_output": "Should detect Grant Mode. Should use full 4-agent parallel scanning architecture. Should flag and fix: generic importance claims, textbook methodology, AI vocabulary (all 3 tiers), sentence uniformity, parallel paragraph structure, information density uniformity. Should preserve all scientific data, equations, and citations. Final output should have: CV > 0.40, 0 Tier 1 words, copula ratio < 15%, no parallel paragraphs. Full quantitative metrics report.",
+      "files": []
+    }
+  ]
+}

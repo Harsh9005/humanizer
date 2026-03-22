@@ -1,0 +1,945 @@
+{
+  "n_papers_analyzed": 19,
+  "total_sentences": 3322,
+  "total_paragraphs": 112,
+  "sentence_structure": {
+    "mean_length": 24.12,
+    "median_length": 21.0,
+    "std_length": 24.96,
+    "cv": 1.035,
+    "min_length": 3,
+    "max_length": 687,
+    "burstiness": 0.017,
+    "pct_short_le10": 13.8,
+    "pct_medium_11_20": 32.9,
+    "pct_long_21_35": 40.5,
+    "pct_very_long_gt35": 12.9,
+    "n_sentences": 3024
+  },
+  "paragraph_structure": {
+    "mean_sents_per_para": 29.66,
+    "std_sents_per_para": 16.58,
+    "cv_sents_per_para": 0.559,
+    "mean_words_per_para": 654.0,
+    "std_words_per_para": 296.9,
+    "max_consecutive_same_length": 2,
+    "para_length_distribution": {
+      "19": 6,
+      "30": 6,
+      "26": 5,
+      "21": 5,
+      "24": 5,
+      "41": 5,
+      "16": 4,
+      "14": 4,
+      "37": 4,
+      "42": 4
+    },
+    "n_paragraphs": 112
+  },
+  "vocabulary": {
+    "ttr": 0.1003,
+    "mattr": 0.697,
+    "lexical_density": 0.69,
+    "total_words": 65299,
+    "unique_words": 6551,
+    "ai_tier1_words_found": {
+      "intricacies": 1,
+      "leverage": 2,
+      "interplay": 5,
+      "pivotal": 2,
+      "synergy": 4,
+      "landscape": 10,
+      "intricate": 2,
+      "harness": 2,
+      "cornerstone": 7,
+      "multifaceted": 1
+    },
+    "ai_tier2_words_found": {
+      "paradigm": 4,
+      "furthermore": 20,
+      "revolutionize": 1,
+      "streamline": 5,
+      "additionally": 18,
+      "innovative": 2,
+      "comprehensive": 11,
+      "moreover": 18,
+      "crucial": 10,
+      "robust": 13,
+      "key": 46,
+      "enhance": 8,
+      "meticulously": 1,
+      "valuable": 4,
+      "enhancing": 1,
+      "highlight": 8
+    },
+    "ai_tier3_pubmed_found": {
+      "facilitated": 5,
+      "demonstrated": 38,
+      "additionally": 18,
+      "across": 106,
+      "comprehensive": 11,
+      "notably": 10,
+      "significantly": 9,
+      "crucial": 10,
+      "exhibited": 5,
+      "particularly": 6,
+      "primarily": 6,
+      "underpinned": 1,
+      "within": 109,
+      "illuminated": 16,
+      "insights": 12,
+      "underscores": 1
+    }
+  },
+  "transitions": {
+    "transition_frequency": 44.8,
+    "transitions_per_100_sentences": {
+      "contrast": 14.1,
+      "temporal": 7.3,
+      "exemplifying": 8.1,
+      "additive": 6.6,
+      "causal": 6.2,
+      "emphasis": 1.7,
+      "concessive": 0.9
+    },
+    "transition_distribution": {
+      "contrast": 467,
+      "temporal": 241,
+      "exemplifying": 270,
+      "additive": 219,
+      "causal": 207,
+      "emphasis": 55,
+      "concessive": 30
+    },
+    "top_sentence_starters": [
+      [
+        "the",
+        400
+      ],
+      [
+        "in",
+        138
+      ],
+      [
+        "we",
+        130
+      ],
+      [
+        "this",
+        91
+      ],
+      [
+        "for",
+        77
+      ],
+      [
+        "a",
+        67
+      ],
+      [
+        "however",
+        65
+      ],
+      [
+        "to",
+        62
+      ],
+      [
+        "these",
+        45
+      ],
+      [
+        "it",
+        40
+      ],
+      [
+        "as",
+        40
+      ],
+      [
+        "by",
+        37
+      ],
+      [
+        "b",
+        29
+      ],
+      [
+        "scale",
+        28
+      ],
+      [
+        "here",
+        27
+      ],
+      [
+        "although",
+        25
+      ],
+      [
+        "c",
+        22
+      ],
+      [
+        "therefore",
+        20
+      ],
+      [
+        "d",
+        20
+      ],
+      [
+        "nature",
+        19
+      ],
+      [
+        "furthermore",
+        19
+      ],
+      [
+        "moreover",
+        17
+      ],
+      [
+        "with",
+        16
+      ],
+      [
+        "e-mail:",
+        15
+      ],
+      [
+        "e",
+        15
+      ],
+      [
+        "1).",
+        14
+      ],
+      [
+        "thus",
+        14
+      ],
+      [
+        "if",
+        14
+      ],
+      [
+        "at",
+        14
+      ],
+      [
+        "\u2022",
+        13
+      ]
+    ],
+    "transition_examples": {
+      "contrast": [
+        "Yet\nfundamental barriers still exist that prevent or delay the clinical translation\nof nanomedicines",
+        "In recent years, there has been a sentiment that the nanomedicine field\nhas promised big but deliver",
+        "However, this\nviewpoint fails to see the complete picture and does not account for\nrecent success."
+      ],
+      "temporal": [
+        "Liposomal doxorubicin, Doxil,\nwas the first nanomedicine to overcome the translational hurdles and\nw",
+        "In light of the recent and extensive clinical\ntranslation of nanomedicines, we argue that we have en",
+        "Furthermore, when accounting for the evolution of clinically\nsuccessful nanomedicines, where each cl"
+      ],
+      "exemplifying": [
+        "Extensive clinical testing and\nvalidation of other nanomedicines followed, which has led to where\nwe",
+        "This framework complements existing guidelines for pharmaceutical (and nanomedicine) development (fo",
+        "We postulate that industry, clinicians, patients, regulatory authorities and governments are poised "
+      ],
+      "additive": [
+        "We postulate that industry, clinicians, patients, regulatory authorities and governments are poised ",
+        "Furthermore, when accounting for the evolution of clinically\nsuccessful nanomedicines, where each cl",
+        "A lack of rigorous characterization of surface functionalization and the spatial orientation of targ"
+      ],
+      "causal": [
+        "(FDA), International Organization for Standardization (ISO) guidelines), and thus, should not be rev",
+        "In many cases, a new nanomedicine has only one\nchance at clinical development; thus, choice of the i",
+        "Thus, investigators must rationally select the nanomaterials and fabrication steps based on a sound "
+      ],
+      "emphasis": [
+        "This is exemplified by\nAstraZeneca\u2019s AZD2811, an Aurora-B kinase inhibitor encapsulated\nwithin polym",
+        "Given the lack of suitable preclinical models that precisely\nsimulate human disease, multiple advanc",
+        "However,\nConsideration for mitigating risk\nClinical development\nIrrelevant indication\nor poor clinic"
+      ],
+      "concessive": [
+        "Despite this, the current literature largely overlooks the role of the\nbiomolecular corona in bio\u2013na",
+        "A prime example lies in the failure for\nOpaxio (paclitaxel/poly(l-glutamic acid) nanoconjugate) to o",
+        "Outlook and future directions\nThe future of nanomedicines is exponentially brighter despite the\nmany"
+      ]
+    }
+  },
+  "voice_and_person": {
+    "passive_voice_pct": 17.1,
+    "active_voice_pct": 82.9,
+    "first_person_we_pct": 11.7,
+    "first_person_i_pct": 0.3
+  },
+  "copula_patterns": {
+    "simple_copulas": 1737,
+    "copula_substitutes": 20,
+    "substitute_ratio_pct": 1.14
+  },
+  "readability": {
+    "flesch_reading_ease": 18.5042474374539,
+    "flesch_kincaid_grade": 16.06263487679821,
+    "gunning_fog": 19.64896987491304,
+    "smog_index": 17.25635018743625,
+    "coleman_liau": 17.05376169955809,
+    "ari": 18.07120674531796
+  },
+  "punctuation": {
+    "em_dashes_per_1000_words": 0.55,
+    "en_dashes_per_1000_words": 5.23,
+    "semicolons_per_sentence": 0.068,
+    "colons_per_sentence": 0.051,
+    "commas_per_sentence": 1.46,
+    "em_dash_count": 40,
+    "en_dash_count": 383
+  },
+  "information_density": {
+    "mean_info_density": 0.0793,
+    "std_info_density": 0.0441,
+    "cv_info_density": 0.555,
+    "min_info_density": 0.0,
+    "max_info_density": 0.2327
+  },
+  "sentence_openings": {
+    "opening_pattern_counts": {
+      "other": 2200,
+      "meta_discourse": 44,
+      "article_start": 479,
+      "transition_word": 133,
+      "dependent_clause_first": 135,
+      "demonstrative": 145,
+      "first_person": 141,
+      "expletive": 45
+    },
+    "opening_pattern_pct": {
+      "other": 66.2,
+      "meta_discourse": 1.3,
+      "article_start": 14.4,
+      "transition_word": 4.0,
+      "dependent_clause_first": 4.1,
+      "demonstrative": 4.4,
+      "first_person": 4.2,
+      "expletive": 1.4
+    }
+  },
+  "ngrams": {
+    "2-grams": [
+      [
+        "for example",
+        134
+      ],
+      [
+        "supplementary fig",
+        82
+      ],
+      [
+        "the ptv",
+        69
+      ],
+      [
+        "in vivo",
+        67
+      ],
+      [
+        "due to",
+        61
+      ],
+      [
+        "fig the",
+        60
+      ],
+      [
+        "lithium niobate",
+        58
+      ],
+      [
+        "fig and",
+        57
+      ],
+      [
+        "extended data",
+        54
+      ],
+      [
+        "based on",
+        52
+      ],
+      [
+        "of evs",
+        50
+      ],
+      [
+        "compared with",
+        49
+      ],
+      [
+        "may be",
+        45
+      ],
+      [
+        "used to",
+        45
+      ],
+      [
+        "data fig",
+        42
+      ],
+      [
+        "within the",
+        41
+      ],
+      [
+        "printing speed",
+        40
+      ],
+      [
+        "of nanomedicines",
+        39
+      ],
+      [
+        "the hybrid",
+        39
+      ],
+      [
+        "understanding of",
+        37
+      ],
+      [
+        "the development",
+        37
+      ],
+      [
+        "used in",
+        37
+      ],
+      [
+        "nanophotonic lithium",
+        37
+      ],
+      [
+        "university of",
+        36
+      ],
+      [
+        "in vitro",
+        35
+      ],
+      [
+        "drug product",
+        34
+      ],
+      [
+        "and supplementary",
+        34
+      ],
+      [
+        "of dn",
+        34
+      ],
+      [
+        "development of",
+        33
+      ],
+      [
+        "could be",
+        33
+      ]
+    ],
+    "3-grams": [
+      [
+        "extended data fig",
+        41
+      ],
+      [
+        "nanophotonic lithium niobate",
+        37
+      ],
+      [
+        "fig and supplementary",
+        30
+      ],
+      [
+        "the use of",
+        27
+      ],
+      [
+        "due to the",
+        27
+      ],
+      [
+        "the development of",
+        27
+      ],
+      [
+        "lithium niobate waveguides",
+        25
+      ],
+      [
+        "the presence of",
+        24
+      ],
+      [
+        "of the ptv",
+        23
+      ],
+      [
+        "the number of",
+        20
+      ],
+      [
+        "the case of",
+        20
+      ],
+      [
+        "check for updates",
+        19
+      ],
+      [
+        "based on the",
+        19
+      ],
+      [
+        "in the case",
+        19
+      ],
+      [
+        "the drug product",
+        18
+      ],
+      [
+        "printing speed of",
+        18
+      ],
+      [
+        "of the hybrid",
+        18
+      ],
+      [
+        "be used to",
+        17
+      ],
+      [
+        "and supplementary fig",
+        17
+      ],
+      [
+        "the context of",
+        16
+      ],
+      [
+        "supplementary fig the",
+        16
+      ],
+      [
+        "the blood circulation",
+        16
+      ],
+      [
+        "compared with the",
+        15
+      ],
+      [
+        "the lack of",
+        14
+      ],
+      [
+        "of the photoresist",
+        14
+      ],
+      [
+        "the us fda",
+        13
+      ],
+      [
+        "we recommend that",
+        13
+      ],
+      [
+        "and in vivo",
+        12
+      ],
+      [
+        "for example the",
+        12
+      ],
+      [
+        "as well as",
+        12
+      ]
+    ],
+    "4-grams": [
+      [
+        "nanophotonic lithium niobate waveguides",
+        23
+      ],
+      [
+        "in the case of",
+        19
+      ],
+      [
+        "fig and supplementary fig",
+        14
+      ],
+      [
+        "in the context of",
+        11
+      ],
+      [
+        "and extended data fig",
+        11
+      ],
+      [
+        "on the basis of",
+        10
+      ],
+      [
+        "critical for all lipids",
+        10
+      ],
+      [
+        "in the drug product",
+        9
+      ],
+      [
+        "fig and supplementary video",
+        9
+      ],
+      [
+        "the adapted poling approach",
+        9
+      ],
+      [
+        "can be used to",
+        8
+      ],
+      [
+        "licence cc by ref",
+        8
+      ],
+      [
+        "ref springer nature ltd",
+        8
+      ],
+      [
+        "any methods additional references",
+        8
+      ],
+      [
+        "methods additional references nature",
+        8
+      ],
+      [
+        "additional references nature portfolio",
+        8
+      ],
+      [
+        "references nature portfolio reporting",
+        8
+      ],
+      [
+        "nature portfolio reporting summaries",
+        8
+      ],
+      [
+        "portfolio reporting summaries source",
+        8
+      ],
+      [
+        "reporting summaries source data",
+        8
+      ],
+      [
+        "summaries source data extended",
+        8
+      ],
+      [
+        "source data extended data",
+        8
+      ],
+      [
+        "data extended data supplementary",
+        8
+      ],
+      [
+        "extended data supplementary information",
+        8
+      ],
+      [
+        "in nanophotonic lithium niobate",
+        8
+      ],
+      [
+        "of the initiator btmst",
+        8
+      ],
+      [
+        "in vitro and in",
+        7
+      ],
+      [
+        "published online october check",
+        7
+      ],
+      [
+        "online october check for",
+        7
+      ],
+      [
+        "october check for updates",
+        7
+      ]
+    ]
+  },
+  "tfidf": {
+    "top_tfidf_terms": [
+      [
+        "fig",
+        0.0744
+      ],
+      [
+        "evs",
+        0.0665
+      ],
+      [
+        "cells",
+        0.0638
+      ],
+      [
+        "membrane",
+        0.0587
+      ],
+      [
+        "quantum",
+        0.0572
+      ],
+      [
+        "cell",
+        0.0531
+      ],
+      [
+        "scission",
+        0.0494
+      ],
+      [
+        "ev",
+        0.0477
+      ],
+      [
+        "spin",
+        0.0469
+      ],
+      [
+        "supplementary",
+        0.0453
+      ],
+      [
+        "nonlinear",
+        0.0434
+      ],
+      [
+        "printing",
+        0.0426
+      ],
+      [
+        "origamifish",
+        0.0424
+      ],
+      [
+        "synthetic",
+        0.042
+      ],
+      [
+        "zro2",
+        0.0402
+      ],
+      [
+        "dna",
+        0.0394
+      ],
+      [
+        "data",
+        0.0381
+      ],
+      [
+        "proteins",
+        0.0379
+      ],
+      [
+        "poling",
+        0.0374
+      ],
+      [
+        "lipid",
+        0.0369
+      ],
+      [
+        "clinical",
+        0.0367
+      ],
+      [
+        "ml",
+        0.0358
+      ],
+      [
+        "imaging",
+        0.0357
+      ],
+      [
+        "nm",
+        0.0353
+      ],
+      [
+        "photoresist",
+        0.0343
+      ],
+      [
+        "bio",
+        0.0339
+      ],
+      [
+        "control",
+        0.0329
+      ],
+      [
+        "protein",
+        0.0322
+      ],
+      [
+        "dn",
+        0.031
+      ],
+      [
+        "origami",
+        0.0303
+      ],
+      [
+        "blood",
+        0.0303
+      ],
+      [
+        "development",
+        0.03
+      ],
+      [
+        "based",
+        0.0292
+      ],
+      [
+        "nanoparticles",
+        0.0291
+      ],
+      [
+        "hybrid",
+        0.0286
+      ],
+      [
+        "nanomedicines",
+        0.0285
+      ],
+      [
+        "waveguides",
+        0.0284
+      ],
+      [
+        "speed",
+        0.0282
+      ],
+      [
+        "native",
+        0.028
+      ],
+      [
+        "drug",
+        0.0276
+      ],
+      [
+        "tumour",
+        0.0273
+      ],
+      [
+        "using",
+        0.0266
+      ],
+      [
+        "transport",
+        0.0265
+      ],
+      [
+        "tpl",
+        0.026
+      ],
+      [
+        "used",
+        0.0259
+      ],
+      [
+        "dna origami",
+        0.0259
+      ],
+      [
+        "lipids",
+        0.0255
+      ],
+      [
+        "endothelial",
+        0.0254
+      ],
+      [
+        "molecular",
+        0.0247
+      ],
+      [
+        "surface",
+        0.0246
+      ]
+    ],
+    "vocabulary_size": 500
+  },
+  "paragraph_clusters": {
+    "cluster_0": {
+      "n_paragraphs": 1,
+      "avg_sentences": 22.0,
+      "avg_words": 674.0,
+      "avg_sent_length": 30.6,
+      "avg_number_density": 0.0356,
+      "avg_citation_density": 0.5
+    },
+    "cluster_1": {
+      "n_paragraphs": 46,
+      "avg_sentences": 44.5,
+      "avg_words": 928.0,
+      "avg_sent_length": 21.8,
+      "avg_number_density": 0.0362,
+      "avg_citation_density": 0.004
+    },
+    "cluster_2": {
+      "n_paragraphs": 1,
+      "avg_sentences": 1.0,
+      "avg_words": 687.0,
+      "avg_sent_length": 687.0,
+      "avg_number_density": 0.0131,
+      "avg_citation_density": 0.0
+    },
+    "cluster_3": {
+      "n_paragraphs": 64,
+      "avg_sentences": 19.5,
+      "avg_words": 456.0,
+      "avg_sent_length": 26.6,
+      "avg_number_density": 0.0339,
+      "avg_citation_density": 0.007
+    }
+  },
+  "per_paper_variation": {
+    "sentence_cv_mean": 0.608,
+    "sentence_cv_std": 0.3,
+    "passive_pct_mean": 16.2,
+    "passive_pct_std": 5.2
+  }
+}
